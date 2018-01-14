@@ -1,9 +1,39 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{6}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Barba(2017)]{barba2017-repeto}
 Barba, L.~A., 2017: Science reproducibility taxonomy. Figshare, presentation
   slides under CC-BY,
   \href{https://doi.org/10.6084/m9.figshare.5248273.v1}{doi:10.6084/m9.figshare.5248273.v1}.
+
+\bibitem[Buckheit and Donoho(1995)]{buckheit_donoho1995}
+Buckheit, J.~B. and D.~L. Donoho, 1995: Wavelab and reproducible research. In
+  Antoniadis~A., O.~G., ed., {\em Wavelets and statistics\/}, Springer, New
+  York, NY, vol. 103 of {\em Lecture Notes in Statistics\/}, pp. 55--81,
+  \href{https://doi.org/10.1007/978-1-4612-2544-7_5}{doi:10.1007/978-1-4612-2544-7\_5}.
+
+\bibitem[Claerbout and Karrenbach(1992)]{claerbout1992}
+Claerbout, J.~F. and M.~Karrenbach, 1992: Electronic documents give
+  reproducible research a new meaning. In {\em SEG Technical Program Expanded
+  Abstracts 1992\/}, Society of Exploration Geophysicists, pp. 601--604,
+  \href{https://doi.org/10.1190/1.1822162}{doi:10.1190/1.1822162}.
+
+\bibitem[Donoho et~al.(2009)Donoho, Maleki, Rahman, Shahram, and
+  Stodden]{donohoETal2009}
+Donoho, D.~L., A.~Maleki, I.~U. Rahman, M.~Shahram, and V.~Stodden, 2009:
+  Reproducible research in computational harmonic analysis. {\em Computing in
+  Science \& Engineering\/}, {\bf 11(1)}, 8--18,
+  \href{https://doi.org/10.1109/MCSE.2009.15}{doi:10.1109/MCSE.2009.15}.
+
+\bibitem[Schwab et~al.(2000)Schwab, Karrenbach, and Claerbout]{schwabETal2000}
+Schwab, M., M.~Karrenbach, and J.~Claerbout, 2000: Making scientific
+  computations reproducible. {\em Computing in Science \& Engineering\/}, {\bf
+  2(6)}, 61--67,
+  \href{https://doi.org/10.1109/5992.881708}{doi:10.1109/5992.881708}.
+
+\bibitem[unknown(2017)]{wiki:claerbout}
+unknown, 2017: {Jon Claerbout}. Wikipedia, The Free Encyclopedia,
+  \url{https://en.wikipedia.org/w/index.php?title=Jon_Claerbout&oldid=777337051}
+  [Online; accessed 14-January-2018].
 
 \end{thebibliography}
