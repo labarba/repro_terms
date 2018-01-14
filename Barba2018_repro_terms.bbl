@@ -1,0 +1,9 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[Barba(2017)]{barba2017-repeto}
+Barba, L.~A., 2017: Science reproducibility taxonomy. Figshare, presentation
+  slides under CC-BY,
+  \href{https://doi.org/10.6084/m9.figshare.5248273.v1}{doi:10.6084/m9.figshare.5248273.v1}.
+
+\end{thebibliography}
