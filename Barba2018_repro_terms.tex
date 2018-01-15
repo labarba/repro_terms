@@ -148,8 +148,37 @@ But epidemiologic studies are expensive, time-consuming, and often impossible to
 In the social sciences, Harvard professor Gary King, one of the most cited political scientists of this generation, also pioneered the reproducibility concerns. 
 In \cite{king1995}, he writes: ``The replication standard holds that sufficient information exists with which to understand, evaluate, and build upon a prior work if a third party could replicate the results without any additional information from the author.'' He uses the term \emph{replication} throughout, not making a distinction like we have in the Claerbout/Donoho/Peng writings on reproducible research. 
 In fact, his paper uses ``replication'' 96 times, ``replicate'' 21 times, and ``reproduce'' (as verb) only twice. E.g., ``good science requires that we be able to reproduce existing numerical results\ldots''
-A more recent work co-authored by King, \cite[]{lazerETal2014}, does not include the words ``reproduce/reproducibility/reproducible'' at all, and only uses ``replicate.'' 
+A more recent work co-authored by King, \cite[]{lazerETal2014}, still does not include the words ``reproduce/reproducibility/reproducible,'' and only uses ``replicate.'' 
 This appears to be the more common usage in his field, as a Google Scholar search with ``replication political science`` gives 339,000 results, and with ``reproducible political science'' gives just 59,700 results (checked 01/14/2017).
+
+
+\section*{Conflicting terminologies}
+\vspace{\up}
+
+As mentioned above, Claerbout and Donoho's pioneering work influenced many others, who adopt their definition of reproducible research. 
+For example, \cite{gentlemanETal2007}: ``By reproducible research, we mean research papers with accompanying software tools that allow the reader to directly reproduce the results and employ the computational methods that are presented in the research paper.''
+\cite{vandewalleETal2009}: ``A research work is called reproducible if all information relevant to the work, including, but not limited to, text, data and code, is made available, such that an independent researcher can reproduce the results.''
+\cite{leveque2009}: ``The idea of `reproducible research' in scientific computing is to archive and make publicly available all the codes used to create a paper's figures or tables, preferably in such a manner that readers can download the codes and run them to reproduce the results.''
+The distinction with the idea of replication, introduced by Peng, also appears in other works. 
+The \emph{Annals of Internal Medicine} issued a statement saying: ``Independent replication by independent scientists in independent settings provides the best assurance that a scientific finding is valid; however, the resources and time required for high-quality clinical studies makes literal replication of published studies a slow corrective to any errors in the original publication. However, scientists and journal editors can promote `reproducible research,' [which ensures] that independent scientists can reproduce published results by using the same procedures and data as the original investigators'' \cite[]{laineETal2007}. 
+In an editorial, the \emph{Int. Journal of Forecasting} announces that it will publish \emph{replication studies}: works attempting to independently verify research findings ``under the same or very similar conditions'' \cite[]{hyndman2010}. 
+\emph{Science} published a special issue on ``Data Replication \& Reproducibility'' in 2011, to which the introduction reads: ``Replication---the confirmation of results and conclusions from one study obtained independently in another---is considered the scientific gold standard'' \cite[]{jasnyETal2011}.
+In Peng's own (widely cited) article in this special issue, he introduces the idea of a \emph{reproducibility spectrum}, in which reproducible research is a ``minimum standard for judging scientific claims when full independent replication of a study is not possible.''
+
+On the basis of the multiple references cited above, here are concise definitions that convey the meanings of the Claerbout/Donoho/Peng convention:
+
+\begin{description}
+\item[Reproducible research:] Authors provide all the necessary data and the computer codes to run the analysis again, re-creating the results.
+\item[Replication:] Arriving at the same scientific findings as another study, collecting new data (possibly with different methods) and completing new analyses.
+\end{description}
+
+Unfortunately, conflicting terminologies started to spread in recent years. 
+It appears that the first work to completely swap the usage of \emph{reproducible} and \emph{replicable} is \cite{drummond2009}. 
+This is a workshop contribution to a conference in the field of machine learning (meaning, it received light or no peer review). 
+The author seems to arbitrarily swap existing terminology; he says: ``I have used the term replicability for what others have called reproducibility in our literature.''
+He provides no more justification than ``I think it reasonable.''
+Mark Liberman, Distinguished Professor of Linguistics at the University of Pennsylvania, analyzed the usage of terms in the literature, and referring to Drummond's paper he concluded: ``Since the technical term `reproducible research' has been in use since 1990, and the technical distinction between reproducible and replicable at least since 2006, we should reject [the] attempt to re-coin technical terms reproducible and replicable in senses that assign the terms to concepts nearly opposite to those used in the definitions by Claerbout, Peng and others.'' \cite[]{liberman2015}
+
 
 
 
