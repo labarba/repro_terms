@@ -1,4 +1,4 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{24}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Barba(2017)]{barba2017-repeto}
@@ -6,17 +6,53 @@ Barba, L.~A., 2017: Science reproducibility taxonomy. Figshare, presentation
   slides under CC-BY,
   \href{https://doi.org/10.6084/m9.figshare.5248273.v1}{doi:10.6084/m9.figshare.5248273.v1}.
 
+\bibitem[Boylan et~al.(2015)Boylan, Goodwin, Mohammadipour, and
+  Syntetos]{boylan2015}
+Boylan, J.~E., P.~Goodwin, M.~Mohammadipour, and A.~A. Syntetos, 2015:
+  Reproducibility in forecasting research. {\em International Journal of
+  Forecasting\/}, {\bf 31(1)}, 79--90,
+  \href{https://doi.org/10.1016/j.ijforecast.2014.05.008}{doi:10.1016/j.ijforecast.2014.05.008}.
+
 \bibitem[Buckheit and Donoho(1995)]{buckheit_donoho1995}
 Buckheit, J.~B. and D.~L. Donoho, 1995: Wavelab and reproducible research. In
   Antoniadis~A., O.~G., ed., {\em Wavelets and statistics\/}, Springer, New
   York, NY, vol. 103 of {\em Lecture Notes in Statistics\/}, pp. 55--81,
   \href{https://doi.org/10.1007/978-1-4612-2544-7_5}{doi:10.1007/978-1-4612-2544-7\_5}.
 
+\bibitem[Casadevall and Fang(2010)]{casadevall_fang2010}
+Casadevall, A. and F.~C. Fang, 2010: Reproducible science. {\em Infection and
+  Immunity\/}, {\bf 78(12)}, 4972--4975,
+  \href{https://doi.org/10.1128/IAI.00908-10}{doi:10.1128/IAI.00908-10}.
+
 \bibitem[Claerbout and Karrenbach(1992)]{claerbout1992}
 Claerbout, J.~F. and M.~Karrenbach, 1992: Electronic documents give
   reproducible research a new meaning. In {\em SEG Technical Program Expanded
   Abstracts 1992\/}, Society of Exploration Geophysicists, pp. 601--604,
   \href{https://doi.org/10.1190/1.1822162}{doi:10.1190/1.1822162}.
+
+\bibitem[Cooper et~al.(2015)Cooper, Vik, and Waltemath]{cooper2015}
+Cooper, J., J.~O. Vik, and D.~Waltemath, 2015: A call for virtual experiments:
+  accelerating the scientific process. {\em Progress in biophysics and
+  molecular biology\/}, {\bf 117(1)}, 99--106,
+  \href{https://doi.org/10.1016/j.pbiomolbio.2014.10.001}{doi:10.1016/j.pbiomolbio.2014.10.001}.
+
+\bibitem[Crook et~al.(2013)Crook, Davison, and Plesser]{crook2013}
+Crook, S.~M., A.~P. Davison, and H.~E. Plesser, 2013: Learning from the past:
+  approaches for reproducibility in computational neuroscience. In Bower, J.,
+  ed., {\em 20 Years of Computational Neuroscience\/}, Springer, vol.~9 of {\em
+  Springer Series in Computational Neuroscience\/}, pp. 73--102,
+  \href{https://doi.org/10.1007/978-1-4614-1424-7_4}{doi:10.1007/978-1-4614-1424-7\_4}.
+
+\bibitem[Davison(2012)]{davison2012}
+Davison, A., 2012: Automated capture of experiment context for easier
+  reproducibility in computational research. {\em Computing in Science \&
+  Engineering\/}, {\bf 14(4)}, 48--56,
+  \href{https://doi.org/10.1109/MCSE.2012.41}{doi:10.1109/MCSE.2012.41}.
+
+\bibitem[de~Winter and Happee(2013)]{dewinter_happee2013}
+de~Winter, J. and R.~Happee, 2013: Why selective publication of statistically
+  significant results can be effective. {\em PloS one\/}, {\bf 8(6)}, e66463,
+  \href{https://doi.org/10.1371/journal.pone.0066463}{doi:10.1371/journal.pone.0066463}.
 
 \bibitem[Donoho et~al.(2009)Donoho, Maleki, Rahman, Shahram, and
   Stodden]{donohoETal2009}
@@ -69,15 +105,15 @@ LeVeque, R.~J., 2009: Python tools for reproducible research on hyperbolic
   problems. {\em Computing in Science \& Engineering\/}, {\bf 11(1)}, 19--27,
   \href{https://doi.org/10.1109/MCSE.2009.13}{doi:10.1109/MCSE.2009.13}.
 
-\bibitem[Leveque et~al.(2012)Leveque, Mitchell, and Stodden]{levequeETal2012}
-Leveque, R.~J., I.~M. Mitchell, and V.~Stodden, 2012: Reproducible research for
-  scientific computing: Tools and strategies for changing the culture. {\em
-  Computing in Science \& Engineering\/}, {\bf 14(4)}, 13--17.
-
 \bibitem[Liberman(2015)]{liberman2015}
 Liberman, M., 2015: Replicability vs. reproducibility --- or is it the
   other way around? The Language Log,
   \url{http://languagelog.ldc.upenn.edu/nll/?p=21956}.
+
+\bibitem[Loscalzo(2012)]{loscalzo2012}
+Loscalzo, J., 2012: Irreproducible experimental results. {\em Circulation\/},
+  {\bf 125(10)}, 1211--1214,
+  \href{https://doi.org/10.1161/circulationaha.112.098244}{doi:10.1161/circulationaha.112.098244}.
 
 \bibitem[Peng et~al.(2006)Peng, Dominici, and Zeger]{pengETal2006}
 Peng, R.~D., F.~Dominici, and S.~L. Zeger, 2006: Reproducible epidemiologic
