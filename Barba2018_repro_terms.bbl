@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{9}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Barba(2017)]{barba2017-repeto}
@@ -24,6 +24,22 @@ Donoho, D.~L., A.~Maleki, I.~U. Rahman, M.~Shahram, and V.~Stodden, 2009:
   Reproducible research in computational harmonic analysis. {\em Computing in
   Science \& Engineering\/}, {\bf 11(1)}, 8--18,
   \href{https://doi.org/10.1109/MCSE.2009.15}{doi:10.1109/MCSE.2009.15}.
+
+\bibitem[King(1995)]{king1995}
+King, G., 1995: Replication, replication. {\em PS: Political Science \&
+  Politics\/}, {\bf 28(3)}, 444--452,
+  \href{https://doi.org/10.2307/420301}{10.2307/420301}.
+
+\bibitem[Lazer et~al.(2014)Lazer, Kennedy, King, and Vespignani]{lazerETal2014}
+Lazer, D., R.~Kennedy, G.~King, and A.~Vespignani, 2014: The parable of google
+  flu: traps in big data analysis. {\em Science\/}, {\bf 343(6176)},
+  1203--1205,
+  \href{https://doi.org/10.1126/science.1248506}{10.1126/science.1248506}.
+
+\bibitem[Peng et~al.(2006)Peng, Dominici, and Zeger]{pengETal2006}
+Peng, R.~D., F.~Dominici, and S.~L. Zeger, 2006: Reproducible epidemiologic
+  research. {\em American Journal of Epidemiology\/}, {\bf 163(9)}, 783--789,
+  \href{https://doi.org/10.1093/aje/kwj093}{doi:10.1093/aje/kwj093}.
 
 \bibitem[Schwab et~al.(2000)Schwab, Karrenbach, and Claerbout]{schwabETal2000}
 Schwab, M., M.~Karrenbach, and J.~Claerbout, 2000: Making scientific
