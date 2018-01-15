@@ -1,4 +1,4 @@
-\begin{thebibliography}{24}
+\begin{thebibliography}{26}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Barba(2017)]{barba2017-repeto}
@@ -105,6 +105,11 @@ LeVeque, R.~J., 2009: Python tools for reproducible research on hyperbolic
   problems. {\em Computing in Science \& Engineering\/}, {\bf 11(1)}, 19--27,
   \href{https://doi.org/10.1109/MCSE.2009.13}{doi:10.1109/MCSE.2009.13}.
 
+\bibitem[Leveque et~al.(2012)Leveque, Mitchell, and Stodden]{levequeETal2012}
+Leveque, R.~J., I.~M. Mitchell, and V.~Stodden, 2012: Reproducible research for
+  scientific computing: Tools and strategies for changing the culture. {\em
+  Computing in Science \& Engineering\/}, {\bf 14(4)}, 13--17.
+
 \bibitem[Liberman(2015)]{liberman2015}
 Liberman, M., 2015: Replicability vs. reproducibility --- or is it the
   other way around? The Language Log,
@@ -125,6 +130,11 @@ Schwab, M., M.~Karrenbach, and J.~Claerbout, 2000: Making scientific
   computations reproducible. {\em Computing in Science \& Engineering\/}, {\bf
   2(6)}, 61--67,
   \href{https://doi.org/10.1109/5992.881708}{doi:10.1109/5992.881708}.
+
+\bibitem[Stodden(2011)]{stodden2011}
+Stodden, V., 2011: Trust your science? open your data and code. {\em Amstat
+  News\/}, 21--22,
+  \url{http://magazine.amstat.org/blog/2011/07/01/trust-your-science/}.
 
 \bibitem[unknown(2017)]{wiki:claerbout}
 unknown, 2017: {Jon Claerbout}. Wikipedia, The Free Encyclopedia,
