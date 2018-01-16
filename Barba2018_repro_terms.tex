@@ -167,7 +167,7 @@ The distinction with the idea of replication, introduced by Peng, also appears i
 The \emph{Annals of Internal Medicine} issued a statement saying: ``Independent replication by independent scientists in independent settings provides the best assurance that a scientific finding is valid; however, the resources and time required for high-quality clinical studies makes literal replication of published studies a slow corrective to any errors in the original publication. However, scientists and journal editors can promote `reproducible research,' [which ensures] that independent scientists can reproduce published results by using the same procedures and data as the original investigators'' \cite[]{laineETal2007}. 
 In an editorial, the \emph{Int. Journal of Forecasting} announces that it will publish \emph{replication studies}: works attempting to independently verify research findings ``under the same or very similar conditions'' \cite[]{hyndman2010}. 
 \emph{Science} published a special issue on ``Data Replication \& Reproducibility'' in 2011, to which the introduction reads: ``Replication---the confirmation of results and conclusions from one study obtained independently in another---is considered the scientific gold standard'' \cite[]{jasnyETal2011}.
-Peng's own (widely cited) article in this special issue introduces the idea of a \emph{reproducibility spectrum}, in which reproducible research is a ``minimum standard for judging scientific claims when full independent replication of a study is not possible.''
+Peng's own (widely cited) article in this special issue introduces the idea of a \emph{reproducibility spectrum}, in which reproducible research is a ``minimum standard for judging scientific claims when full independent replication of a study is not possible.'' \cite[]{peng2011}
 
 On the basis of the multiple references cited above, here are concise definitions that convey the meanings of the Claerbout/Donoho/Peng convention:
 
@@ -196,8 +196,8 @@ Also in \cite{levequeETal2012}, the practice of ``private reproducibility'' is e
 In this sense, ``reproducibility'' is that minimum standard in the spectrum, in contrast to ``replicability,'' as Drummond would have it. 
 The opposing terminologies coexist in this paper.
 
-A more recent use of terminology in contradiction with the Claerbout/Donoho/Peng convention appears in the effort of the Association of Computing Machinery (ACM) on Result and Artifact Review and Badging.\footnote{ \url{https://www.acm.org/publications/policies/artifact-review-badging}}  It deploys across ACM publications a badging system for articles complying with various standards of code and data sharing. With that purpose, it defines the following terminology:
-
+A more recent use of terminology in contradiction with the Claerbout/Donoho/Peng convention appears in the effort of the Association of Computing Machinery (ACM) on Result and Artifact Review and Badging.\footnote{ Approved June 2016, \url{https://www.acm.org/publications/policies/artifact-review-badging}}  It deploys across ACM publications a badging system for articles complying with various standards of code and data sharing. With that purpose, it defines the following terminology:
+%
 \begin{description}
 \item[Repeatability ]  (Same team, same experimental setup.)
 The measurement can be obtained with stated precision by the same team using the same measurement procedure, the same measuring system, under the same operating conditions, in the same location on multiple trials. For computational experiments, this means that a researcher can reliably repeat her own computation.
@@ -208,9 +208,19 @@ The measurement can be obtained with stated precision by a different team, a dif
 \end{description}
 
 
+The source for the definitions adopted by the ACM is the International Vocabulary of Metrology \cite[]{jcgm2008}, which establishes terminology for physical measurements. 
+Relevant passages from this source are (abridged):
+\begin{description}
+\item[repeatability condition of measurement]\ldots same measurement procedure, same operators, same measuring system, same operating conditions and same location, and replicate measurements on the same or similar objects over a short period of time (p.23);
+\item[reproducibility condition of measurement]\ldots set of conditions that includes different locations, operators, measuring systems, and replicate measurements on the same or similar objects (p.24).
+\end{description}
 
+The document contains no definition of ``replicability'' but both definitions above use the phrase `replicate measurements.' The scenario for these definitions is a physical quantity being measured, and the precision of that measurement. Repeatability is the precision over successive measurements of the same quantity, with everything kept the same (even the operator), over a short period of time. 
+Because measuring tools and procedures have inherent errors, it's relevant to document repeatability in the form of standard deviation or other dispersion characteristics (e.g., graphical).
+Reproducibility of measurements involves changing at least one condition, e.g., the instrument, the location, the operator. 
+Because the same physical quantity is being measured, reproducibility of measurement is also expressed by a dispersion statistic, like standard deviation \cite[]{taylorETal1994}. 
 
-
+Along the way of creating the ACM terminology, based on the metrology document, some leap occurred. Replicability is not defined in \cite{jcgm2008}, and reproducibility could just as well be mapped to the minimum standard of the Peng spectrum, where certainly the operator (researcher) changes, the instrument (computer) does as well, other conditions may also change, but the object of study remains the same.
 
 
 

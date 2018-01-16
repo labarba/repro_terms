@@ -1,4 +1,4 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{28}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Barba(2017)]{barba2017-repeto}
@@ -82,6 +82,12 @@ Jasny, B.~R., G.~Chin, L.~Chong, and S.~Vignieri, 2011: Again, and again, and
   again{\ldots}. {\em Science\/}, {\bf 334(6060)}, 1225,
   \href{https://doi.org/10.1126/science.334.6060.1225}{doi:10.1126/science.334.6060.1225}.
 
+\bibitem[JCGM(2008)]{jcgm2008}
+JCGM, 2008: {\em The international vocabulary of metrology---basic and general
+  concepts and associated terms {(VIM)}\/}. Joint Committee for Guides in
+  Metrology, 3rd edn. JCGM 200: 2012,
+  \url{https://www.bipm.org/utils/common/documents/jcgm/JCGM_200_2012.pdf}.
+
 \bibitem[King(1995)]{king1995}
 King, G., 1995: Replication, replication. {\em PS: Political Science \&
   Politics\/}, {\bf 28(3)}, 444--452,
@@ -135,6 +141,13 @@ Schwab, M., M.~Karrenbach, and J.~Claerbout, 2000: Making scientific
 Stodden, V., 2011: Trust your science? open your data and code. {\em Amstat
   News\/}, 21--22,
   \url{http://magazine.amstat.org/blog/2011/07/01/trust-your-science/}.
+
+\bibitem[Taylor and Kuyatt(1994)]{taylorETal1994}
+Taylor, B.~N. and C.~E. Kuyatt, 1994: {\em Guidelines for evaluating and
+  expressing the uncertainty of NIST measurement results\/}. US Department of
+  Commerce, Technology Administration, National Institute of Standards and
+  Technology,
+  \url{https://www.nist.gov/sites/default/files/documents/2017/05/09/tn1297s.pdf}.
 
 \bibitem[unknown(2017)]{wiki:claerbout}
 unknown, 2017: {Jon Claerbout}. Wikipedia, The Free Encyclopedia,
