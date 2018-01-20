@@ -1,4 +1,4 @@
-\begin{thebibliography}{47}
+\begin{thebibliography}{48}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Barba(2017)]{barba2017-repeto}
@@ -195,6 +195,13 @@ McCullough, B.~D., K.~A. McGeary, and T.~D. Harrison, 2008: Do economics
 {National Science Foundation}, 2015: The basics of reproducibility. Video on
   the NSF website,
   \url{https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=136139&org=NSF}.
+
+\bibitem[Nosek et~al.(2015)Nosek, Alter, Banks, Borsboom, Bowman, Breckler,
+  Buck, Chambers, Chin, Christensen, et~al.]{nosekETal2015}
+Nosek, B.~A., G.~Alter, G.~C. Banks, D.~Borsboom, S.~D. Bowman, S.~J. Breckler,
+  S.~Buck, C.~D. Chambers, G.~Chin, G.~Christensen, et~al., 2015: Promoting an
+  open research culture. {\em Science\/}, {\bf 348(6242)}, 1422--1425,
+  \href{https://doi.org/10.1126/science.aab2374}{doi:10.1126/science.aab2374}.
 
 \bibitem[{Open Science Collaboration}(2012)]{openscience2012}
 {Open Science Collaboration}, 2012: An open, large-scale, collaborative effort
