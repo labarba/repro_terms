@@ -234,26 +234,29 @@ $A$ includes \cite{king1995}.
 $B1$ corresponds to the Claerbout/Donoho/Peng convention, while $B2$ agrees with \cite{drummond2009} and the ACM terminology.
 Table \ref{repro-table} classifies into these groups all the references cited above, and more.
 
+\bigskip
+
 \begin{table}[h]
-\caption{Catalogue of terminologies in the literature, with Google Scholar citations (checked Jan.\ 16, 2018).}
+\caption{Catalogue of terminologies in the literature, with Google Scholar citations (checked Jan.\ 20, 2018).}
 \begin{footnotesize}
 \begin{tabular}{c c c}
 $A$				&	$B1$				&	$B2$ \\ \hline
-\cite{king1995}, 527	& \cite{pengETal2006}, 177	& \cite{drummond2009}, 134 \\
-\cite{jcgm2008}, 32		& \cite{gentlemanETal2007}, 215& \cite{casadevall_fang2010}, 56\\
-				& \cite{laineETal2007}, 133	& \cite{stodden2011}, 30\\
-\cite{dewaldETal1986}, 506 & \cite{vandewalleETal2009}, 267& \cite{davison2012}, 79 \\
-\cite{mccullough2008}, 93 & \cite{leveque2009}, 32	& \cite{loscalzo2012}, 31\\
-\cite{garijoETal2013}, 52 & \cite{hyndman2010}, 20	& \cite{levequeETal2012}, 79\\
-\cite{openscience2012}, 297	& \cite{jasnyETal2011}, 180& \cite{crook2013}, 16\\
-\cite{openscience2015}, 1558	& \cite{peng2011}, 549 	& \cite{cooper2015}, 26\\
-				& 					& \\
-				& \cite{koenkerETal2009}, 58	& \cite{cartwright1991}, 81\\
-				&\cite{delescluseETal2012}, 22	&\\
-				&  \cite{sandveETal2013}, 226	& \\
+\cite{king1995}, 527	& \cite{pengETal2006}, 177	& \cite{drummond2009}, 135 \\
+\cite{jcgm2008}, 32	& \cite{gentlemanETal2007}, 216	& \cite{casadevall_fang2010}, 58\\
+				& \cite{laineETal2007}, 134	& \cite{stodden2011}, 30\\
+\cite{dewaldETal1986}, 506 & \cite{vandewalleETal2009}, 266& \cite{davison2012}, 80 \\
+\cite{pesaran2003}, 12 & \cite{leveque2009}, 32	& \cite{loscalzo2012}, 31\\
+\cite{mccullough2008}, 93 & \cite{hyndman2010}, 20	& \cite{levequeETal2012}, 74\\
+\cite{garijoETal2013}, 52	& \cite{jasnyETal2011}, 180& \cite{crook2013}, 16\\
+\cite{openscience2012}, 300	& \cite{peng2011}, 552 	& \cite{cooper2015}, 26\\
+\cite{openscience2015}, 1573	& 					& \\
+\cite{stodden2015}, 19 & \cite{koenkerETal2009}, 58	& \cite{cartwright1991}, 81\\
+\cite{duvendackETal2017}, 13 &\cite{delescluseETal2012}, 22	&\\
+				&  \cite{sandveETal2013}, 227	& \\
 				& \cite{topalidou2015}, 14	& \\
-				&\cite{iqbalETal2016}, 66	& \\
+				&\cite{iqbalETal2016}, 67	& \\
 				&\cite{stevens2017}, 1	& \\
+				& \cite{bollenETal2015}, 12	&\\
 \end{tabular}
 \end{footnotesize}
 \label{repro-table}
@@ -291,9 +294,23 @@ This usage aligns with group $B1$.
 We find in \cite{cartwright1991} the opposite terminology:
 ``I propose to distinguish replicability---doing the same experiment again---from reproducibility---doing a new experiment.'' 
 This essay by a philosopher of science is a commentary on the work of another, who had proposed that ``replication is the establishment of a new and contested result by agreement over what counts as a correctly performed series of experiments''  \cite[]{collins1991}. 
-Both authors are concerned with replication in economics, where usage generally does not distinguish between reproduce and replicate, and most often uses the latter word for everything. 
-An even older example is \cite{dewaldETal1986}, while a more recent one is \cite{mccullough2008}. 
-Like in political science, the economics literature uses the `replication` much more frequently, and as an umbrella term. (A Google Scholar search with ``replication economics'' gives 298,000 results, and with ``reproducibility economics,'' 53,700 results; checked Jan. 19, 2018).
+Both authors are concerned with replication in economics, where usage generally does not distinguish between reproduce and replicate, and most often defaults to the latter word for everything. 
+An even older example with no distinction of the two terms is \cite{dewaldETal1986}, while a more recent one is \cite{mccullough2008}. 
+Like in political science, the economics literature uses `replication` much more frequently, often as an umbrella term. (A Google Scholar search with ``replication economics'' gives 298,000 results, and with ``reproducibility economics,'' 53,700 results; checked Jan. 19, 2018).
+The new-section announcement for replication studies in the \emph{Journal of Applied Econometrics} \cite[]{pesaran2003}, for example, explains what is to be included: checking consistency and accuracy of data, checking validity of computations either directly or using different software (preferred), and checking ``if the substantive empirical finding of the paper can be replicated using data from other periods, countries, regions, or other entities as appropriate.'' 
+Succinctly put by \cite{duvendackETal2017}: 
+``we operationalize `replication' as any study whose main purpose is to determine the validity of one or more empirical results from a previously published study.''
+%The recent terminology proposal of \cite{clemens2017} throw a wrench in this.
+
+In psychological science, the widely cited works of the Open Science Collaboration---two large-scale efforts to replicate published empirical and correlational studies in psychology---use the terms reproduce and replicate interchangeably. 
+Explicitly, the first work says: ``Some distinguish between `reproducibility' and `replicability' by treating the former as a narrower case of the latter (e.g., computational sciences) or vice versa (e.g., biological sciences). We ignore the distinction'.' \cite[]{openscience2012}. 
+In the second work, the authors recurrently use `replication' (208 times), and less frequently apply `reproducible,' as an umbrella term (60 times). 
+However, the lead author of these studies, Brian Nosek, adopts the distinction between terms according to Claerbout/Donoho/Peng when speaking in a recent video interview \cite[]{nsf2015vid}. 
+He says:
+``[by] reproducibility\ldots what we're usually referring to is: can you take the data and findings that I produced in some research, and run the analysis again and get the result back that I got.
+[In] replicability\ldots I do a study, get a finding with some data, and you do your own study\ldots''
+
+
 
 
 
@@ -301,11 +318,10 @@ Like in political science, the economics literature uses the `replication` much 
 
 
 % ----------------------------------------------  REFERENCES 
-
+{\small
 \bibliography{repro}
 \bibliographystyle{jponew}
-
-
+}
 
 
 

@@ -1,10 +1,18 @@
-\begin{thebibliography}{42}
+\begin{thebibliography}{47}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Barba(2017)]{barba2017-repeto}
 Barba, L.~A., 2017: Science reproducibility taxonomy. Figshare, presentation
   slides under CC-BY,
   \href{https://doi.org/10.6084/m9.figshare.5248273.v1}{doi:10.6084/m9.figshare.5248273.v1}.
+
+\bibitem[Bollen et~al.(2015)Bollen, Cacioppo, Kaplan, Krosnick, and
+  Olds]{bollenETal2015}
+Bollen, K., J.~Cacioppo, R.~Kaplan, J.~Krosnick, and J.~Olds, 2015: Social,
+  behavioral, and economic sciences: perspectives on robust and reliable
+  science. Report of the Subcommittee on Replicability in Science, Advisory
+  Committee to the National Science Foundation Directorate for Social,
+  Behavioral, and Economic Sciences.
 
 \bibitem[Boylan et~al.(2015)Boylan, Goodwin, Mohammadipour, and
   Syntetos]{boylan2015}
@@ -90,6 +98,13 @@ Drummond, C., 2009: Replicability is not reproducibility: nor is it good
   science. [Conference Paper] Cogprints ID 7691,
   \url{http://cogprints.org/7691/}.
 
+\bibitem[Duvendack et~al.(2017)Duvendack, Palmer-Jones, and
+  Reed]{duvendackETal2017}
+Duvendack, M., R.~Palmer-Jones, and W.~R. Reed, 2017: What is meant by
+  ``replication'' and why does it encounter resistance in economics? {\em
+  American Economic Review\/}, {\bf 107(5)}, 46--51,
+  \href{http://dx.doi.org/10.1257/aer.p20171031}{doi:10.1257/aer.p20171031}.
+
 \bibitem[Garijo et~al.(2013)Garijo, Kinnings, Xie, Xie, Zhang, Bourne, and
   Gil]{garijoETal2013}
 Garijo, D., S.~Kinnings, L.~Xie, L.~Xie, Y.~Zhang, P.~E. Bourne, and Y.~Gil,
@@ -156,7 +171,8 @@ LeVeque, R.~J., 2009: Python tools for reproducible research on hyperbolic
 \bibitem[Leveque et~al.(2012)Leveque, Mitchell, and Stodden]{levequeETal2012}
 Leveque, R.~J., I.~M. Mitchell, and V.~Stodden, 2012: Reproducible research for
   scientific computing: Tools and strategies for changing the culture. {\em
-  Computing in Science \& Engineering\/}, {\bf 14(4)}, 13--17.
+  Computing in Science \& Engineering\/}, {\bf 14(4)}, 13--17,
+  \href{https://doi.org/10.1109/MCSE.2012.38}{doi:10.1109/MCSE.2012.38}.
 
 \bibitem[Liberman(2015)]{liberman2015}
 Liberman, M., 2015: Replicability vs. reproducibility --- or is it the
@@ -174,6 +190,11 @@ McCullough, B.~D., K.~A. McGeary, and T.~D. Harrison, 2008: Do economics
   journal archives promote replicable research? {\em Canadian Journal of
   Economics/Revue canadienne d'{\'e}conomique\/}, {\bf 41(4)}, 1406--1420,
   \href{https://doi.org/10.1111/j.1540-5982.2008.00509.x}{doi:10.1111/j.1540-5982.2008.00509.x}.
+
+\bibitem[{National Science Foundation}(2015)]{nsf2015vid}
+{National Science Foundation}, 2015: The basics of reproducibility. Video on
+  the NSF website,
+  \url{https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=136139&org=NSF}.
 
 \bibitem[{Open Science Collaboration}(2012)]{openscience2012}
 {Open Science Collaboration}, 2012: An open, large-scale, collaborative effort
@@ -195,6 +216,11 @@ Peng, R.~D., 2011: Reproducible research in computational science. {\em
 Peng, R.~D., F.~Dominici, and S.~L. Zeger, 2006: Reproducible epidemiologic
   research. {\em American Journal of Epidemiology\/}, {\bf 163(9)}, 783--789,
   \href{https://doi.org/10.1093/aje/kwj093}{doi:10.1093/aje/kwj093}.
+
+\bibitem[Pesaran(2003)]{pesaran2003}
+Pesaran, H., 2003: Introducing a replication section. {\em Journal of Applied
+  Econometrics\/}, {\bf 18(1)}, 111--111,
+  \url{http://www.jstor.org/stable/30035191}.
 
 \bibitem[Sandve et~al.(2013)Sandve, Nekrutenko, Taylor, and
   Hovig]{sandveETal2013}
@@ -219,6 +245,11 @@ Stodden, V., 2011: Trust your science? open your data and code. {\em Amstat
   News\/}, 21--22,
   \url{http://magazine.amstat.org/blog/2011/07/01/trust-your-science/}.
 
+\bibitem[Stodden(2015)]{stodden2015}
+---, 2015: Reproducing statistical results. {\em Annual Review of Statistics
+  and Its Application\/}, {\bf 2}, 1--19,
+  \href{https://doi.org/10.1146/annurev-statistics-010814-020127}{doi:10.1146/annurev-statistics-010814-020127}.
+
 \bibitem[Taylor and Kuyatt(1994)]{taylorETal1994}
 Taylor, B.~N. and C.~E. Kuyatt, 1994: {\em Guidelines for evaluating and
   expressing the uncertainty of NIST measurement results\/}. US Department of
@@ -238,7 +269,7 @@ Topalidou, M., A.~Leblois, T.~Boraud, and N.~P. Rougier, 2015: A long journey
 Vandewalle, P., J.~Kovacevic, and M.~Vetterli, 2009: Reproducible research in
   signal processing. {\em IEEE Signal Processing Magazine\/}, {\bf 26(3)},
   37--47,
-  \href{https://doi.org/10.1109/MSP.2009.932122}{10.1109/MSP.2009.932122}.
+  \href{https://doi.org/10.1109/MSP.2009.932122}{doi:10.1109/MSP.2009.932122}.
 
 \bibitem[{Wikipedia contributors}(2017)]{wiki:claerbout}
 {Wikipedia contributors}, 2017: {Jon Claerbout}. Wikipedia, The Free
