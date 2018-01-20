@@ -89,7 +89,7 @@
 
 {\fontspec[Mapping=tex-text,Scale=0.8]{Source Sans Pro} Lorena A. Barba, the George Washington University, Washington D.C. 
 
-January 2018}
+January 2018 --- UNFINISHED DRAFT}
 
 
 
@@ -135,8 +135,7 @@ And here is where the authors write the often-quoted ``slogan'' of reproducible 
 
 \cite{buckheit_donoho1995} include many technical details that seem dated now, so perhaps a better place to read about this group's thinking and practice is \cite{donohoETal2009}. 
 This appears to be the first article to publicly state that reproducibility depends on open code and data. The authors define \emph{reproducible computational research} as that ``in which all details of computations---code and data---are made conveniently available to others.'' 
-The authors used the now-recurrent charged language about a ``credibility crisis'' in computational science.
-They worry that computation cannot claim to be the ``third branch'' of science because most computational results cannot be verified. 
+They used the now-recurrent charged language about a ``credibility crisis'' in computational science, and worry that computation cannot claim to be the ``third branch'' of science because most computational results cannot be verified. 
 In the two traditional branches, standards of practice already exist for managing the ubiquity of error: deductive science uses formal logic and the mathematical proof, while empirical science uses statistical hypothesis testing and detailed methods reporting. 
 The authors also counter the view that reproducibility means re-implementing the research software from the ground up. 
 Because, in that case, if the new results did not match, ``the only way we'd ever get to the bottom of such a discrepancy is if we both worked reproducibly and studied detailed differences between code and data.''
@@ -173,11 +172,11 @@ On the basis of the multiple references cited above, here are concise definition
 
 \begin{description}
 \item[Reproducible research:] Authors provide all the necessary data and the computer codes to run the analysis again, re-creating the results.
-\item[Replication:] Arriving at the same scientific findings as another study, collecting new data (possibly with different methods) and completing new analyses.
+\item[Replication:] A study that arrives at the same scientific findings as another study, collecting new data (possibly with different methods) and completing new analyses.
 \end{description}
 
 Unfortunately, conflicting terminologies started to spread in recent years. 
-It appears that the first work to completely swap the usage of \emph{reproducible} and \emph{replicable} is \cite{drummond2009}. 
+It appears that the first work to directly swap the usage of \emph{reproducible} and \emph{replicable} is \cite{drummond2009}. 
 This is a workshop contribution to a conference in the field of machine learning (meaning, it received light or no peer review). 
 The author seems to arbitrarily swap existing terminology; he says: ``I have used the term replicability for what others have called reproducibility in our literature.''
 He provides no more justification than ``I think it reasonable.''
@@ -197,7 +196,7 @@ In this sense, ``reproducibility'' is that minimum standard in the spectrum, in 
 The opposing terminologies coexist in this paper.
 
 A more recent use of terminology in contradiction with the Claerbout/Donoho/Peng convention appears in the effort of the Association of Computing Machinery (ACM) on Result and Artifact Review and Badging.\footnote{ Approved June 2016, \url{https://www.acm.org/publications/policies/artifact-review-badging}}  It deploys across ACM publications a badging system for articles complying with various standards of code and data sharing. With that purpose, it defines the following terminology:
-%
+\vspace{\up}
 \begin{description}
 \item[Repeatability ]  (Same team, same experimental setup.)
 The measurement can be obtained with stated precision by the same team using the same measurement procedure, the same measuring system, under the same operating conditions, in the same location on multiple trials. For computational experiments, this means that a researcher can reliably repeat her own computation.
@@ -208,7 +207,7 @@ The measurement can be obtained with stated precision by a different team, a dif
 \end{description}
 
 
-The source for the definitions adopted by the ACM is the International Vocabulary of Metrology \cite[]{jcgm2008}, which establishes terminology for physical measurements. 
+The source cited for the definitions adopted by the ACM is the International Vocabulary of Metrology \cite[]{jcgm2008}, which establishes terminology for physical measurements. 
 Relevant passages from this source are (abridged):
 \begin{description}
 \item[repeatability condition of measurement]\ldots same measurement procedure, same operators, same measuring system, same operating conditions and same location, and replicate measurements on the same or similar objects over a short period of time (p.23);
@@ -217,23 +216,85 @@ Relevant passages from this source are (abridged):
 
 The document contains no definition of ``replicability'' but both definitions above use the phrase `replicate measurements.' The scenario for these definitions is a physical quantity being measured, and the precision of that measurement. Repeatability is the precision over successive measurements of the same quantity, with everything kept the same (even the operator), over a short period of time. 
 Because measuring tools and procedures have inherent errors, it's relevant to document repeatability in the form of standard deviation or other dispersion characteristics (e.g., graphical).
-Reproducibility of measurements involves changing at least one condition, e.g., the instrument, the location, the operator. 
-Because the same physical quantity is being measured, reproducibility of measurement is also expressed by a dispersion statistic, like standard deviation \cite[]{taylorETal1994}. 
+Reproducibility of measurements involves changing at least one condition, e.g., the instrument, the location, or the operator. 
+Because the \emph{same} physical quantity is being measured (``on the same or similar object''), reproducibility of measurement is also expressed by a dispersion statistic, like standard deviation \cite[p.14]{taylorETal1994}. 
 
-Along the way of creating the ACM terminology, based on the metrology document, some leap occurred. Replicability is not defined in \cite{jcgm2008}, and reproducibility could just as well be mapped to the minimum standard of the Peng spectrum, where certainly the operator (researcher) changes, the instrument (computer) does as well, other conditions may also change, but the object of study remains the same.
-
+Along the way of creating the ACM terminology, based on the metrology document, some leap occurred. Replicability is not defined in \cite{jcgm2008}, and reproducibility could just as well be mapped to the minimum standard of the Peng spectrum, where certainly the operator (researcher) changes, the instrument (computer) does as well, and other conditions may also change, but the object of study remains the same.
+Arguably, conditions for physical measurements are a distant analogy for the complex processes of a full scientific workflow. 
 
 \section*{Cataloguing the reproducibility literature}
 \vspace{\up}
 
-The conflicting terminologies are at least an annoyance, and at worst an impediment to the progress of science. Yet no solution is available beyond a general good practice of always defining the terms used in any particular writing. 
+The conflicting terminologies are at least an annoyance, and at worst an impediment to the progress of science. Yet no solution is at hand beyond a general good practice of always defining the terms used in any particular writing. 
 Here is a decision tree to catalogue the terminologies in the literature: 
 authors either, $A$---make no distinction between the words \emph{reproduce} and \emph{replicate}, or $B$---use them distinctly.  
 If $B$, then they are commonly divided in two camps. 
 In a spectrum of concerns that starts at a minimum standard of ``same data$+$same methods$=$same results,'' to ``new data and/or new methods in an independent study$=$same findings,'' group $1$ calls the minimum standard \emph{reproduce}, while group $2$ calls it \emph{replicate}.
 $A$ includes \cite{king1995}.
-$B1$ corresponds to the Claerbout/Donoho/Peng convention.
-$B2$ agrees with \cite{drummond2009} and the ACM terminology.
+$B1$ corresponds to the Claerbout/Donoho/Peng convention, while $B2$ agrees with \cite{drummond2009} and the ACM terminology.
+Table \ref{repro-table} classifies into these groups all the references cited above, and more.
+
+\begin{table}[h]
+\caption{Catalogue of terminologies in the literature, with Google Scholar citations (checked Jan.\ 16, 2018).}
+\begin{footnotesize}
+\begin{tabular}{c c c}
+$A$				&	$B1$				&	$B2$ \\ \hline
+\cite{king1995}, 527	& \cite{pengETal2006}, 177	& \cite{drummond2009}, 134 \\
+\cite{jcgm2008}, 32		& \cite{gentlemanETal2007}, 215& \cite{casadevall_fang2010}, 56\\
+				& \cite{laineETal2007}, 133	& \cite{stodden2011}, 30\\
+\cite{dewaldETal1986}, 506 & \cite{vandewalleETal2009}, 267& \cite{davison2012}, 79 \\
+\cite{mccullough2008}, 93 & \cite{leveque2009}, 32	& \cite{loscalzo2012}, 31\\
+\cite{garijoETal2013}, 52 & \cite{hyndman2010}, 20	& \cite{levequeETal2012}, 79\\
+\cite{openscience2012}, 297	& \cite{jasnyETal2011}, 180& \cite{crook2013}, 16\\
+\cite{openscience2015}, 1558	& \cite{peng2011}, 549 	& \cite{cooper2015}, 26\\
+				& 					& \\
+				& \cite{koenkerETal2009}, 58	& \cite{cartwright1991}, 81\\
+				&\cite{delescluseETal2012}, 22	&\\
+				&  \cite{sandveETal2013}, 226	& \\
+				& \cite{topalidou2015}, 14	& \\
+				&\cite{iqbalETal2016}, 66	& \\
+				&\cite{stevens2017}, 1	& \\
+\end{tabular}
+\end{footnotesize}
+\label{repro-table}
+\end{table}%
+
+\subsection*{Added references and commentary}
+\vspace{\up}
+
+Table \ref{repro-table} includes additional references to those cited in the narrative above.  Quotes from these and/or commentary to justify their grouping follow below.
+
+\cite{koenkerETal2009} cite the Claerbout `slogan,' from \cite{buckheit_donoho1995}, and list various software tools and techniques to enable reproducible research. 
+They then describe two `replication case studies,' i.e., efforts to obtain the same results that appeared in other publications. 
+In the conclusion, they say: ``the real challenge of reproducible econometric research lies in restructuring incentives to encourage better archiving and distribution of the gory details of computationally oriented research.''
+Despite absence of explicit definitions, the usage agrees with group $B1$. 
+Similarly, \cite{delescluseETal2012} cite Claerbout, Donoho, and Peng (among many others), and adopt the $B1$ terminology. 
+The authors describe their preferred tools for reproducible data analysis of neurophysiological data, and illustrate the process with a detailed example of implementation.
+
+The work by \cite{sandveETal2013} is also in group $B1$. It says: ``As full replication of studies on independently collected data is often not feasible, [\ldots] reproducible research [is] an attainable minimum standard for assessing the value of scientific claims.''
+The authors use the phrase `replication studies' several times,  and refer to `inability to replicate findings' and `replication in studies with different data.'
+Thus, although they included no explicit terminology definition, their usage agrees with  Claerbout/Donoho/Peng.
+
+\cite{garijoETal2013} lacks any definitions, and does not seem to make a distinction between \emph{replicate} and \emph{reproduce}. However, the first term is used only 3 times, while terms with the root `reproduc-' appear 161 times. The paper deals with reproducing another group's published work using both artifacts provided by original authors and others.
+It's listed in group $A$ as a conservative choice, but it could be argued to belong in $B1$.
+
+\cite{topalidou2015} describe an undertaking to reproduce published results that failed initially when the code provided by the original authors did not compile. 
+The effort resulted in a collaboration with the original authors, and a reimplementation of the code from scratch, ``following the principles of reproducible computational science as proposed in \cite{peng2011}.'' 
+The language agrees with group $B1$.
+
+In \cite{iqbalETal2016}, we read: ``There are many different proposals on how reproducible research can be guaranteed. These include approaches at reproducible practices, i.e., making other investigators able to repeat the process and calculations; re-analysis (as in the case of randomized trials); and replication by independent investigators, as in genetics, psychology, and cancer biology.''
+This usage agrees with group $B1$.
+
+\cite{stevens2017} includes explicit definitions: ``Replicability is `re-performing the experiment and collecting new data,' whereas reproducibility is `re-performing the same analysis with the same code using a different analyst.' Therefore, one can replicate a study or an effect (outcome of a study) but reproduce results (data analyses).''
+This usage aligns with group $B1$.
+
+We find in \cite{cartwright1991} the opposite terminology:
+``I propose to distinguish replicability---doing the same experiment again---from reproducibility---doing a new experiment.'' 
+This essay by a philosopher of science is a commentary on the work of another, who had proposed that ``replication is the establishment of a new and contested result by agreement over what counts as a correctly performed series of experiments''  \cite[]{collins1991}. 
+Both authors are concerned with replication in economics, where usage generally does not distinguish between reproduce and replicate, and most often uses the latter word for everything. 
+An even older example is \cite{dewaldETal1986}, while a more recent one is \cite{mccullough2008}. 
+Like in political science, the economics literature uses the `replication` much more frequently, and as an umbrella term. (A Google Scholar search with ``replication economics'' gives 298,000 results, and with ``reproducibility economics,'' 53,700 results; checked Jan. 19, 2018).
+
 
 
 % ---------------------------------------------------------- END 
