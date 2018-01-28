@@ -253,8 +253,10 @@ $A$				&	$B1$				&	$B2$ \\ \hline
 \cite{stodden2015}, 19 & \cite{koenkerETal2009}, 58	& \cite{cartwright1991}, 81\\
 \cite{duvendackETal2017}, 13 &\cite{delescluseETal2012}, 22	&\\
 				&  \cite{sandveETal2013}, 227	& \\
+				& \cite{stoddenETal2014}, 119	& \\
 				& \cite{topalidou2015}, 14	& \\
 				&\cite{iqbalETal2016}, 67	& \\
+				& \cite{kafkafiETal2016}	& \\
 				&\cite{stevens2017}, 1	& \\
 				& \cite{bollenETal2015}, 12	&\\
 \end{tabular}
@@ -281,12 +283,20 @@ Thus, although they included no explicit terminology definition, their usage agr
 \cite{garijoETal2013} lacks any definitions, and does not seem to make a distinction between \emph{replicate} and \emph{reproduce}. However, the first term is used only 3 times, while terms with the root `reproduc-' appear 161 times. The paper deals with reproducing another group's published work using both artifacts provided by original authors and others.
 It's listed in group $A$ as a conservative choice, but it could be argued to belong in $B1$.
 
+The first comprehensive review of the field in book form, by \cite{stoddenETal2014}, includes this passage in the preface:
+``Replication, the practice of independently implementing scientific experiments to validate specific findings, is the cornerstone of discovering scientific truth. Related to replication is reproducibility, which is the calculation of quantitative scientific results by independent scientists using the original datasets and methods.''
+
 \cite{topalidou2015} describe an undertaking to reproduce published results that failed initially when the code provided by the original authors did not compile. 
 The effort resulted in a collaboration with the original authors, and a reimplementation of the code from scratch, ``following the principles of reproducible computational science as proposed in \cite{peng2011}.'' 
 The language agrees with group $B1$.
 
 In \cite{iqbalETal2016}, we read: ``There are many different proposals on how reproducible research can be guaranteed. These include approaches at reproducible practices, i.e., making other investigators able to repeat the process and calculations; re-analysis (as in the case of randomized trials); and replication by independent investigators, as in genetics, psychology, and cancer biology.''
 This usage agrees with group $B1$.
+
+A report of the January 2015 workshop ``Replicability and reproducibility of discoveries in animal phenotyping'' at Tel Aviv University \cite[]{kafkafiETal2016}, which included researchers from many disciplines (genetics, behavior genetics, behavioral neuroscience, ethology, statistics, bioinformatics and database programming), also aligns with the $B1$ terminology. 
+It says: ``the scientific community has become increasingly concerned with cases of published `discoveries' that could not be replicated in subsequent studies, and sometimes could not even be reproduced in reanalysis of the original data.'' 
+The meeting was hosted by the Replicability Research Group, with funding from the European Research Council. 
+On their website,\footnote{\;\url{http://www.replicability.tau.ac.il/index.php/replicability-in-science/replicability-vs-reproducibility.html}} this group notes their terminology usage, citing the policy in the \emph{Biostatistics} journal \cite[]{peng2009}.
 
 \cite{stevens2017} includes explicit definitions: ``Replicability is `re-performing the experiment and collecting new data,' whereas reproducibility is `re-performing the same analysis with the same code using a different analyst.' Therefore, one can replicate a study or an effect (outcome of a study) but reproduce results (data analyses).''
 This usage aligns with group $B1$.
@@ -310,9 +320,16 @@ He says:
 ``[by] reproducibility\ldots what we're usually referring to is: can you take the data and findings that I produced in some research, and run the analysis again and get the result back that I got.
 [In] replicability\ldots I do a study, get a finding with some data, and you do your own study\ldots''
 
+\cite{stodden2015} does not distinguish the two recurrent terms: 
+``A published finding may not reproduce in independent replications of the original experimental design (i.e., reimplementing the experiment) for any of several statistical reasons.'' 
+This work focuses on \emph{statistical reproducibility}, which ``refers to the failure to replicate an experiment owing to flawed experimental design or statistical analysis.''
+Like some others (see below), this work sidesteps the definition tangle using \emph{reproducibility} as an umbrella term, and proposing expanded terminology that distinguishes between \emph{empirical} reproducibility, \emph{computational} reproducibility, and \emph{statistical} reproducibility.
+
+
 Hundreds of works could of course be added to this discussion. 
 I used no special criteria to choose works to cite here, beyond having come across them in the past, read them, and taken notes about their terminology (plus a random walk through Google Scholar while writing). 
 
+\section*{Expanded terminology}
 
 \section*{Beyond the academic literature}
 
@@ -333,6 +350,7 @@ It encourages PIs to ``embrace completeness and transparency in developing rigor
 but it makes no attempt to define `reproducibility.'
 
 The National Institutes of Health (NIH) maintains a website titled ``Rigor and Reproducibility,'' but does not provide terminology.\footnote{ \url{https://grants.nih.gov/reproducibility/index.htm}}
+
 
 \subsection*{Professional societies}
 \vspace{\up}
@@ -356,6 +374,9 @@ Their terminology does not distinguish between the two recurrent terms (group $A
 
 The Transparency and Openness Promotion (TOP) Guidelines \cite[]{nosekETal2015}, signed so far by nearly 3,000 journals and organizations, plainly link reproducibility to sharing of data, open code, research design disclosure, pre-registration of analysis plans and study details, and replication studies. 
 
+Genome Biology operates a very strict open access, open source and open data policy. All datasets on which the conclusions rely should be either deposited in publicly available repositories (where available and appropriate) or presented in the main manuscript or additional supporting files whenever possible.
+Source code for any in-house scripts that are used in analyses must be either deposited in a public repository or included in the supplementary materials. Source code for tools described in Method or Software articles should be deposited in a public repository, with an OSI-compliant license. 
+Genome Biology?s guidelines on source code deposition. http://genomebiology.biomedcentral.com/submission-guidelines/preparing-your-manuscript/software
 
 
 % ---------------------------------------------------------- END 

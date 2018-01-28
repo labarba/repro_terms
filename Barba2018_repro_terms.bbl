@@ -1,4 +1,4 @@
-\begin{thebibliography}{48}
+\begin{thebibliography}{51}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Barba(2017)]{barba2017-repeto}
@@ -141,6 +141,14 @@ JCGM, 2008: {\em The international vocabulary of metrology---basic and general
   Metrology, 3rd edn. JCGM 200: 2012,
   \url{https://www.bipm.org/utils/common/documents/jcgm/JCGM_200_2012.pdf}.
 
+\bibitem[Kafkafi et~al.(2016)Kafkafi, Agassi, Chesler, Crabbe, Crusio, Eilam,
+  Gerlai, Golani, Gomez-Marin, Heller, et~al.]{kafkafiETal2016}
+Kafkafi, N., J.~Agassi, E.~J. Chesler, J.~C. Crabbe, W.~E. Crusio, D.~Eilam,
+  R.~Gerlai, I.~Golani, A.~Gomez-Marin, R.~Heller, et~al., 2016:
+  Reproducibility and replicability of rodent phenotyping in preclinical
+  studies. {\em bioRxiv\/}, 079350,
+  \href{https://doi.org/10.1101/079350}{doi:10.1101/079350}.
+
 \bibitem[King(1995)]{king1995}
 King, G., 1995: Replication, replication. {\em PS: Political Science \&
   Politics\/}, {\bf 28(3)}, 444--452,
@@ -214,9 +222,14 @@ Nosek, B.~A., G.~Alter, G.~C. Banks, D.~Borsboom, S.~D. Bowman, S.~J. Breckler,
   Science\/}, {\bf 349(6251)}, aac4716,
   \href{https://doi.org/10.1126/science.aac4716}{doi:10.1126/science.aac4716}.
 
+\bibitem[Peng(2009)]{peng2009}
+Peng, R.~D., 2009: Reproducible research and biostatistics. {\em
+  Biostatistics\/}, {\bf 10(3)}, 405--408,
+  \href{https://doi.org/10.1093/biostatistics/kxp014}{doi:10.1093/biostatistics/kxp014}.
+
 \bibitem[Peng(2011)]{peng2011}
-Peng, R.~D., 2011: Reproducible research in computational science. {\em
-  Science\/}, {\bf 334(6060)}, 1226--1227,
+---, 2011: Reproducible research in computational science. {\em Science\/},
+  {\bf 334(6060)}, 1226--1227,
   \href{https://doi.org/10.1126/science.1213847}{doi:10.1126/science.1213847}.
 
 \bibitem[Peng et~al.(2006)Peng, Dominici, and Zeger]{pengETal2006}
@@ -256,6 +269,11 @@ Stodden, V., 2011: Trust your science? open your data and code. {\em Amstat
 ---, 2015: Reproducing statistical results. {\em Annual Review of Statistics
   and Its Application\/}, {\bf 2}, 1--19,
   \href{https://doi.org/10.1146/annurev-statistics-010814-020127}{doi:10.1146/annurev-statistics-010814-020127}.
+
+\bibitem[Stodden et~al.(2014)Stodden, Leisch, and Peng]{stoddenETal2014}
+Stodden, V., F.~Leisch, and R.~D. Peng, eds., 2014: {\em Implementing
+  reproducible research\/}. CRC Press, iSBN 9781466561595, preprint at
+  \href{https://osf.io/s9tya/}{osf.io/s9tya/}.
 
 \bibitem[Taylor and Kuyatt(1994)]{taylorETal1994}
 Taylor, B.~N. and C.~E. Kuyatt, 1994: {\em Guidelines for evaluating and
