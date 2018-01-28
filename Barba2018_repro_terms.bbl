@@ -1,4 +1,4 @@
-\begin{thebibliography}{51}
+\begin{thebibliography}{54}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Barba(2017)]{barba2017-repeto}
@@ -55,7 +55,7 @@ Cooper, J., J.~O. Vik, and D.~Waltemath, 2015: A call for virtual experiments:
   molecular biology\/}, {\bf 117(1)}, 99--106,
   \href{https://doi.org/10.1016/j.pbiomolbio.2014.10.001}{doi:10.1016/j.pbiomolbio.2014.10.001}.
 
-\bibitem[Crook et~al.(2013)Crook, Davison, and Plesser]{crook2013}
+\bibitem[Crook et~al.(2013)Crook, Davison, and Plesser]{crookETal2013}
 Crook, S.~M., A.~P. Davison, and H.~E. Plesser, 2013: Learning from the past:
   approaches for reproducibility in computational neuroscience. In Bower, J.,
   ed., {\em 20 Years of Computational Neuroscience\/}, Springer, vol.~9 of {\em
@@ -118,6 +118,17 @@ Gentleman, R. and D.~Temple~Lang, 2007: Statistical analyses and reproducible
   16(1)}, 1--23,
   \href{https://doi.org/10.1198/106186007X178663}{doi:10.1198/106186007X178663}.
 
+\bibitem[Goodman et~al.(2016)Goodman, Fanelli, and Ioannidis]{goodmanETal2016}
+Goodman, S.~N., D.~Fanelli, and J.~P.~A. Ioannidis, 2016: What does research
+  reproducibility mean? {\em Science translational medicine\/}, {\bf 8(341)},
+  341ps12,
+  \href{https://doi.org/10.1126/scitranslmed.aaf5027}{doi:10.1126/scitranslmed.aaf5027}.
+
+\bibitem[Hamermesh(2007)]{hamermesh2007}
+Hamermesh, D.~S., 2007: Replication in economics. {\em Canadian Journal of
+  Economics/Revue canadienne d'{\'e}conomique\/}, {\bf 40(3)}, 715--733,
+  \href{https://doi.org/10.1111/j.1365-2966.2007.00428.x}{doi:10.1111/j.1365-2966.2007.00428.x}.
+
 \bibitem[Hyndman(2010)]{hyndman2010}
 Hyndman, R.~J., 2010: Encouraging replication and reproducible research. {\em
   Int. J. Forecasting\/}, {\bf 26}, 2--3,
@@ -176,8 +187,8 @@ LeVeque, R.~J., 2009: Python tools for reproducible research on hyperbolic
   problems. {\em Computing in Science \& Engineering\/}, {\bf 11(1)}, 19--27,
   \href{https://doi.org/10.1109/MCSE.2009.13}{doi:10.1109/MCSE.2009.13}.
 
-\bibitem[Leveque et~al.(2012)Leveque, Mitchell, and Stodden]{levequeETal2012}
-Leveque, R.~J., I.~M. Mitchell, and V.~Stodden, 2012: Reproducible research for
+\bibitem[LeVeque et~al.(2012)LeVeque, Mitchell, and Stodden]{levequeETal2012}
+LeVeque, R.~J., I.~M. Mitchell, and V.~Stodden, 2012: Reproducible research for
   scientific computing: Tools and strategies for changing the culture. {\em
   Computing in Science \& Engineering\/}, {\bf 14(4)}, 13--17,
   \href{https://doi.org/10.1109/MCSE.2012.38}{doi:10.1109/MCSE.2012.38}.
@@ -264,6 +275,11 @@ Stevens, J.~R., 2017: Replicability and reproducibility in comparative
 Stodden, V., 2011: Trust your science? open your data and code. {\em Amstat
   News\/}, 21--22,
   \url{http://magazine.amstat.org/blog/2011/07/01/trust-your-science/}.
+
+\bibitem[Stodden(2013)]{stodden2013}
+---, 2013: Resolving irreproducibility in empirical and computational research.
+  IMS Bulletin,
+  \url{http://bulletin.imstat.org/2013/11/resolving-irreproducibility-in-empirical-and-computational-research/}.
 
 \bibitem[Stodden(2015)]{stodden2015}
 ---, 2015: Reproducing statistical results. {\em Annual Review of Statistics
