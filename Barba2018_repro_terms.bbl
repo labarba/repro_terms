@@ -1,5 +1,9 @@
-\begin{thebibliography}{54}
+\begin{thebibliography}{57}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[Baker(2016)]{baker20161}
+Baker, M., 2016: 1,500 scientists lift the lid on reproducibility. {\em Nature
+  News\/}, {\bf 533(7604)}, 452--454.
 
 \bibitem[Barba(2017)]{barba2017-repeto}
 Barba, L.~A., 2017: Science reproducibility taxonomy. Figshare, presentation
@@ -20,6 +24,13 @@ Boylan, J.~E., P.~Goodwin, M.~Mohammadipour, and A.~A. Syntetos, 2015:
   Reproducibility in forecasting research. {\em International Journal of
   Forecasting\/}, {\bf 31(1)}, 79--90,
   \href{https://doi.org/10.1016/j.ijforecast.2014.05.008}{doi:10.1016/j.ijforecast.2014.05.008}.
+
+\bibitem[Broman et~al.(2017)Broman, Cetinkaya-Rundel, Nussbaum, Paciorek, Peng,
+  Turek, and Wickham]{bromanETal2017}
+Broman, K., M.~Cetinkaya-Rundel, A.~Nussbaum, C.~Paciorek, R.~Peng, D.~Turek,
+  and H.~Wickham, 2017: Recommendations to funding agencies for supporting
+  reproducible research. American Statistical Association (ASA),
+  \url{http://www.amstat.org/asa/files/pdfs/POL-ReproducibleResearchRecommendations.pdf}.
 
 \bibitem[Buckheit and Donoho(1995)]{buckheit_donoho1995}
 Buckheit, J.~B. and D.~L. Donoho, 1995: Wavelab and reproducible research. In
@@ -104,6 +115,11 @@ Duvendack, M., R.~Palmer-Jones, and W.~R. Reed, 2017: What is meant by
   ``replication'' and why does it encounter resistance in economics? {\em
   American Economic Review\/}, {\bf 107(5)}, 46--51,
   \href{http://dx.doi.org/10.1257/aer.p20171031}{doi:10.1257/aer.p20171031}.
+
+\bibitem[{FASEB}(2016)]{faseb2016}
+{FASEB}, 2016: Enhancing research reproducibility. Federation of American
+  Societies for Experimental Biology,
+  \url{https://www.faseb.org/Portals/2/PDFs/opa/2016/FASEB_Enhancing%20Research%20Reproducibility.pdf}.
 
 \bibitem[Garijo et~al.(2013)Garijo, Kinnings, Xie, Xie, Zhang, Bourne, and
   Gil]{garijoETal2013}
@@ -288,7 +304,7 @@ Stodden, V., 2011: Trust your science? open your data and code. {\em Amstat
 
 \bibitem[Stodden et~al.(2014)Stodden, Leisch, and Peng]{stoddenETal2014}
 Stodden, V., F.~Leisch, and R.~D. Peng, eds., 2014: {\em Implementing
-  reproducible research\/}. CRC Press, iSBN 9781466561595, preprint at
+  Reproducible Research\/}. CRC Press, iSBN 9781466561595, preprint at
   \href{https://osf.io/s9tya/}{osf.io/s9tya/}.
 
 \bibitem[Taylor and Kuyatt(1994)]{taylorETal1994}

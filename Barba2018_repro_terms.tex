@@ -252,13 +252,14 @@ $A$				&	$B1$				&	$B2$ \\ \hline
 \cite{openscience2015}, 1573	& 					& \\
 \cite{stodden2015}, 19 & \cite{koenkerETal2009}, 58	& \cite{cartwright1991}, 81\\
 \cite{duvendackETal2017}, 13 &\cite{delescluseETal2012}, 22	&\\
-				&  \cite{sandveETal2013}, 227	& \\
+				&  \cite{sandveETal2013}, 227	& \cite{faseb2016}\\
 				& \cite{stoddenETal2014}, 119	& \\
 				& \cite{topalidou2015}, 14	& \\
 				&\cite{iqbalETal2016}, 67	& \\
-				& \cite{kafkafiETal2016}	& \\
+				& \cite{kafkafiETal2016}, 2	& \\
 				&\cite{stevens2017}, 1	& \\
 				& \cite{bollenETal2015}, 12	&\\
+				& \cite{bromanETal2017}, 4	&\\
 \end{tabular}
 \end{footnotesize}
 \label{repro-table}
@@ -329,7 +330,7 @@ Like some others (see below), this work sidesteps the definition tangle using \e
 Hundreds of works could of course be added to this discussion. 
 I used no special criteria to choose works to cite here, beyond having come across them in the past, read them, and taken notes about their terminology (plus a random walk through Google Scholar while writing). 
 
-\section*{Expanded terminology}
+\section*{Expanded terminologies}
 \vspace{\up}
 
 \cite{stodden2013} unpacks the concerns into \emph{empirical} reproducibility, \emph{computational} reproducibility, and \emph{statistical} reproducibility.
@@ -356,24 +357,35 @@ They define terminology as follows:
 ``new evidence is provided by new experimentation, defined in the NSF report as `replicability'.''
 The report recognizes a lack of consensus on terminology, but adopts clear definitions for the two recurrent terms. 
 It also states that ``reproducibility is a minimum necessary condition for a finding to be believable and informative.'' 
-These definitions are consistent with the Claerbout/Donoho/Peng convention (group $B1$), even though  in economics and political science `replicability` is widely used as an umbrella term.
+These definitions are consistent with the Claerbout/Donoho/Peng convention (group $B1$)---even though  in economics and political science `replicability` has been widely used as an umbrella term.
 
 
-The NSF Directorate for Computer \& Information Science \& Engineering (CISE) issued a ``Dear Colleague Letter: Encouraging Reproducibility in Computing and Communications Research'' in October 21, 2016.
-It encourages PIs to ``embrace completeness and transparency in developing rigorous protocols as well as in making experimental parameters and collected data available to other researchers''---
+The NSF Directorate for Computer \& Information Science \& Engineering (CISE) issued a ``Dear Colleague Letter: Encouraging Reproducibility in Computing and Communications Research'' in October 21, 2016.\footnote{\;\url{https://www.nsf.gov/pubs/2017/nsf17022/nsf17022.jsp}}
+It encourages PIs to ``embrace completeness and transparency in developing rigorous protocols as well as in making experimental parameters and collected data available to other researchers','
 but it makes no attempt to define `reproducibility.'
+It cites the December 2011 special issue of \emph{Science} containing the perspective of \cite{peng2011}, and a May 2016 editorial in \emph{Nature} introducing a reader survey of concern with reproducibility \cite[]{baker20161}; the latter work uses reproduce/reproducibility as umbrella terms.
 
-The National Institutes of Health (NIH) maintains a website titled ``Rigor and Reproducibility,'' but does not provide terminology.\footnote{ \url{https://grants.nih.gov/reproducibility/index.htm}}
+The National Institutes of Health (NIH) maintains a website titled ``Rigor and Reproducibility,'' but does not provide terminology.\footnote{\;\url{https://grants.nih.gov/reproducibility/index.htm}}
 
 
 \subsection*{Professional societies}
 \vspace{\up}
 
-The 1999 Ethics and Values document \footnote{ \url{https://www.aps.org/policy/statements/99_6.cfm}} of the American Physical Society (APS) reads: ``The success and credibility of science are anchored in the willingness of scientists to [\ldots] Expose their ideas and results to independent testing and replication by others. This requires the open exchange of data, procedures and materials.'' 
+The 1999 Ethics and Values document \footnote{\;\url{https://www.aps.org/policy/statements/99_6.cfm}} of the American Physical Society (APS) reads: ``The success and credibility of science are anchored in the willingness of scientists to [\ldots] Expose their ideas and results to independent testing and replication by others. This requires the open exchange of data, procedures and materials.'' 
 The use of the word `replication' coincides with the ideas of the Peng spectrum, but it could be a coincidental choice of words.
 
+The American Economic Association (AEA) has a policy\footnote{\;\url{https://www.aeaweb.org/journals/policies/data-availability-policy}} that applies to all its journals: ``to publish papers only if the data used in the analysis are clearly and precisely documented and are readily available to any researcher for purposes of replication.''
 
-The American Economic Association (AEA) has a policy\footnote{ \url{https://www.aeaweb.org/journals/policies/data-availability-policy}} that applies to all its journals: ``to publish papers only if the data used in the analysis are clearly and precisely documented and are readily available to any researcher for purposes of replication.''
+The Federation of American Societies for Experimental Biology published a recommendations document \cite[]{faseb2016} targeted at biomedical and biological research (particularly two key tools: mouse models and antibodies). It defines:
+\begin{description}
+\item[Replicability:] the ability to duplicate (i.e., repeat) a prior result using the same source materials and methodologies. This term should only be used when referring to repeating the results of a specific experiment rather than an entire study;\item[Reproducibility:] the ability to achieve similar or nearly identical results using comparable materials and methodologies. This term may be used when specific  findings from a study are obtained by an independent group of researchers.
+\end{description}
+
+The American Statistical Association (ASA) released in January 2017 a document with recommendations for funding agencies on supporting reproducible research \cite{bromanETal2017}.
+It defines:
+\begin{description}
+\item[Reproducibility:] A study is reproducible if you can take the original data and the computer code used to analyze the data and reproduce all of the numerical findings from the study. This may initially sound like a trivial task but experience has shown that it?s not always easy to achieve this seemingly minimal standard.\item[Replicability:] This is the act of repeating an entire study, independently of the original investigator without the use of original data (but generally using the same methods).
+\end{description}
 
 \subsection*{Journal policies and editorials}
 \vspace{\up}
