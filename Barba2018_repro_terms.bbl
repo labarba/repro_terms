@@ -1,4 +1,4 @@
-\begin{thebibliography}{57}
+\begin{thebibliography}{61}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Baker(2016)]{baker20161}
@@ -9,6 +9,12 @@ Baker, M., 2016: 1,500 scientists lift the lid on reproducibility. {\em Nature
 Barba, L.~A., 2017: Science reproducibility taxonomy. Figshare, presentation
   slides under CC-BY,
   \href{https://doi.org/10.6084/m9.figshare.5248273.v1}{doi:10.6084/m9.figshare.5248273.v1}.
+
+\bibitem[Benureau and Rougier(2017)]{benureauETal2017}
+Benureau, F.~C. and N.~P. Rougier, 2017: Re-run, repeat, reproduce, reuse,
+  replicate: Transforming code into scientific contributions. {\em Frontiers in
+  Neuroinformatics\/}, {\bf 11},
+  \href{https://doi.org/10.3389/fninf.2017.00069}{doi:10.3389/fninf.2017.00069}.
 
 \bibitem[Bollen et~al.(2015)Bollen, Cacioppo, Kaplan, Krosnick, and
   Olds]{bollenETal2015}
@@ -154,7 +160,7 @@ Hyndman, R.~J., 2010: Encouraging replication and reproducible research. {\em
   Ioannidis]{iqbalETal2016}
 Iqbal, S.~A., J.~D. Wallach, M.~J. Khoury, S.~D. Schully, and J.~P. Ioannidis,
   2016: Reproducible research practices and transparency across the biomedical
-  literature. {\em PLoS biology\/}, {\bf 14(1)}, e1002333,
+  literature. {\em PLoS Biology\/}, {\bf 14(1)}, e1002333,
   \href{https://doi.org/10.1371/journal.pbio.1002333}{doi:10.1371/journal.pbio.1002333}.
 
 \bibitem[Jasny et~al.(2011)Jasny, Chin, Chong, and Vignieri]{jasnyETal2011}
@@ -180,6 +186,11 @@ Kafkafi, N., J.~Agassi, E.~J. Chesler, J.~C. Crabbe, W.~E. Crusio, D.~Eilam,
 King, G., 1995: Replication, replication. {\em PS: Political Science \&
   Politics\/}, {\bf 28(3)}, 444--452,
   \href{https://doi.org/10.2307/420301}{doi:10.2307/420301}.
+
+\bibitem[Kitzes et~al.(2017)Kitzes, Turek, and Deniz]{kitzesETal2017}
+Kitzes, J., D.~Turek, and F.~Deniz, 2017: {\em The practice of reproducible
+  research: case studies and lessons from the data-intensive sciences\/}.
+  University of California Press.
 
 \bibitem[Koenker and Zeileis(2009)]{koenkerETal2009}
 Koenker, R. and A.~Zeileis, 2009: On reproducible econometric research. {\em
@@ -219,6 +230,12 @@ Loscalzo, J., 2012: Irreproducible experimental results. {\em Circulation\/},
   {\bf 125(10)}, 1211--1214,
   \href{https://doi.org/10.1161/circulationaha.112.098244}{doi:10.1161/circulationaha.112.098244}.
 
+\bibitem[Marwick et~al.(2017)Marwick, Rokem, and Staneva]{marwickETal2017}
+Marwick, B., A.~Rokem, and V.~Staneva, 2017: {\em Assessing Reproducibility.
+  \emph{In The Practice of Reproducible Research Case Studies and Lessons from
+  the Data-Intensive Sciences, Kitzes et al., eds.}\/}, University of
+  California Press. pp. 3--18.
+
 \bibitem[McCullough et~al.(2008)McCullough, McGeary, and
   Harrison]{mccullough2008}
 McCullough, B.~D., K.~A. McGeary, and T.~D. Harrison, 2008: Do economics
@@ -249,6 +266,11 @@ Nosek, B.~A., G.~Alter, G.~C. Banks, D.~Borsboom, S.~D. Bowman, S.~J. Breckler,
   Science\/}, {\bf 349(6251)}, aac4716,
   \href{https://doi.org/10.1126/science.aac4716}{doi:10.1126/science.aac4716}.
 
+\bibitem[Pellizzari et~al.(2017)Pellizzari, Lohr, Blatecky, and
+  Creel]{pellizzariETal2017}
+Pellizzari, E., K.~Lohr, A.~Blatecky, and D.~Creel, 2017: {\em Reproducibility:
+  A Primer on Semantics and Implications for Research\/}. RTI Press.
+
 \bibitem[Peng(2009)]{peng2009}
 Peng, R.~D., 2009: Reproducible research and biostatistics. {\em
   Biostatistics\/}, {\bf 10(3)}, 405--408,
@@ -272,7 +294,7 @@ Pesaran, H., 2003: Introducing a replication section. {\em Journal of Applied
 \bibitem[Sandve et~al.(2013)Sandve, Nekrutenko, Taylor, and
   Hovig]{sandveETal2013}
 Sandve, G.~K., A.~Nekrutenko, J.~Taylor, and E.~Hovig, 2013: Ten simple rules
-  for reproducible computational research. {\em PLoS computational biology\/},
+  for reproducible computational research. {\em PLoS Computational Biology\/},
   {\bf 9(10)}, e1003285,
   \href{https://doi.org/10.1371/journal.pcbi.1003285}{doi:10.1371/journal.pcbi.1003285}.
 
