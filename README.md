@@ -2,4 +2,4 @@
 Analysis of the terminology used in discussions of reproducibility within various disciplines.
 
 BibTeX file at:
-https://github.com/barbagroup/bibtex/blob/master/barba.bib
+https://github.com/barbagroup/bibtex/blob/master/repro.bib
