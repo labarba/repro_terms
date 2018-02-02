@@ -1,4 +1,4 @@
-\begin{thebibliography}{61}
+\begin{thebibliography}{63}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Baker(2016)]{baker20161}
@@ -61,6 +61,16 @@ Claerbout, J.~F. and M.~Karrenbach, 1992: Electronic documents give
   Abstracts 1992\/}, Society of Exploration Geophysicists, pp. 601--604,
   \href{https://doi.org/10.1190/1.1822162}{doi:10.1190/1.1822162}.
 
+\bibitem[Coffman et~al.(2017)Coffman, Niederle, and Wilson]{coffmanETal2017}
+Coffman, L.~C., M.~Niederle, and A.~J. Wilson, 2017: A proposal to organize and
+  promote replications. {\em American Economic Review\/}, {\bf 107(5)}, 41--45,
+  \href{https://doi.org/10.1257/aer.p20171122}{doi:10.1257/aer.p20171122}.
+
+\bibitem[Collins and Tabak(2014)]{collinsETal2014}
+Collins, F.~S. and L.~A. Tabak, 2014: Nih plans to enhance reproducibility.
+  {\em Nature\/}, {\bf 505(7485)}, 612,
+  \href{https://doi.org/10.1038/505612a}{doi:10.1038/505612a}.
+
 \bibitem[Collins(1991)]{collins1991}
 Collins, H.~M., 1991: The meaning of replication and the science of economics.
   {\em History of Political Economy\/}, {\bf 23(1)}, 123--142,
@@ -68,8 +78,8 @@ Collins, H.~M., 1991: The meaning of replication and the science of economics.
 
 \bibitem[Cooper et~al.(2015)Cooper, Vik, and Waltemath]{cooper2015}
 Cooper, J., J.~O. Vik, and D.~Waltemath, 2015: A call for virtual experiments:
-  accelerating the scientific process. {\em Progress in biophysics and
-  molecular biology\/}, {\bf 117(1)}, 99--106,
+  accelerating the scientific process. {\em Progress in Biophysics and
+  Molecular Biology\/}, {\bf 117(1)}, 99--106,
   \href{https://doi.org/10.1016/j.pbiomolbio.2014.10.001}{doi:10.1016/j.pbiomolbio.2014.10.001}.
 
 \bibitem[Crook et~al.(2013)Crook, Davison, and Plesser]{crookETal2013}

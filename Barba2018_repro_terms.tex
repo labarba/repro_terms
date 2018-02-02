@@ -209,6 +209,7 @@ The measurement can be obtained with stated precision by a different team, a dif
 
 The source cited for the definitions adopted by the ACM is the International Vocabulary of Metrology \cite[]{jcgm2008}, which establishes terminology for physical measurements. 
 Relevant passages from this source are (abridged):
+\vspace{\up}
 \begin{description}
 \item[repeatability condition of measurement]\ldots same measurement procedure, same operators, same measuring system, same operating conditions and same location, and replicate measurements on the same or similar objects over a short period of time (p.23);
 \item[reproducibility condition of measurement]\ldots set of conditions that includes different locations, operators, measuring systems, and replicate measurements on the same or similar objects (p.24).
@@ -361,10 +362,10 @@ I used no special criteria to choose works to cite here, beyond having come acro
 \section*{Expanded terminologies}
 \vspace{\up}
 
-\cite{stodden2013} unpacks the concerns into \emph{empirical} reproducibility, \emph{computational} reproducibility, and \emph{statistical} reproducibility.
-But a few others have also invented expanded terminologies. 
-We already saw that in the fields of economics and political science, the umbrella term is \emph{replication}. 
-\cite{hamermesh2007} talks about \emph{pure} replication, \emph{statistical} replication, and \emph{scientific} replication. The first refers to re-analyzing the same data with the same model and estimation parameters; the second may use different but comparable data, but the same model. 
+\cite{stodden2013} made first a separation between \emph{empirical} reproducibility and \emph{computational} reproducibility, then further unpacked \emph{statistical} reproducibility \cite[]{stodden2015}.
+A few others have also invented expanded terminologies. 
+In the fields of economics and political science, the umbrella term is \emph{replication}. 
+\cite{hamermesh2007} expands this into \emph{pure} replication, \emph{statistical} replication, and \emph{scientific} replication. The first refers to re-analyzing the same data with the same model and estimation parameters; the second may use different but comparable data, but the same model. 
 The last one would use ``different sample, different population, and perhaps similar but not identical model [\ldots] and, indeed, comprises most of what economists view as replication.''
 
 In the context of neuroscience, \cite{crookETal2013}---after citing \cite{drummond2009} as their source for terminology---propose to make further distinctions among: 
@@ -385,7 +386,7 @@ They define terminology as follows:
 ``new evidence is provided by new experimentation, defined in the NSF report as `replicability'.''
 The report recognizes a lack of consensus on terminology, but adopts clear definitions for the two recurrent terms. 
 It also states that ``reproducibility is a minimum necessary condition for a finding to be believable and informative.'' 
-These definitions are consistent with the Claerbout/Donoho/Peng convention (group $B1$)---even though  in economics and political science `replicability` has been widely used as an umbrella term.
+These definitions are consistent with the Claerbout/Donoho/Peng convention (group $B1$)---despite the fact that  in economics and political science `replicability` has been widely used as an umbrella term.
 
 
 The NSF Directorate for Computer \& Information Science \& Engineering (CISE) issued a ``Dear Colleague Letter: Encouraging Reproducibility in Computing and Communications Research'' in October 21, 2016.\footnote{\;\url{https://www.nsf.gov/pubs/2017/nsf17022/nsf17022.jsp}}
@@ -394,7 +395,9 @@ but it makes no attempt to define `reproducibility.'
 It cites the December 2011 special issue of \emph{Science} containing the perspective of \cite{peng2011}, and a May 2016 editorial in \emph{Nature} introducing a reader survey of concern with reproducibility \cite[]{baker20161}; the latter work uses reproduce/reproducibility as umbrella terms.
 
 The National Institutes of Health (NIH) maintains a website titled ``Rigor and Reproducibility,'' but does not provide terminology.\footnote{\;\url{https://grants.nih.gov/reproducibility/index.htm}}
-It set up requirements for strengthening reproducibility of biomedical research in January 2016, providing instructions for grant proposals.
+It set up requirements for strengthening reproducibility of biomedical research in January 2016, providing instructions for grant proposals. NIH focuses on \emph{rigor} (concerning methods and materials) and \emph{transparency} (concerning publication). 
+Their definition of reproducibility is the straight combination of those two notions, while making no particular distinction with the word `replication' \cite[]{collinsETal2014}.
+
 
 \subsection*{Professional societies}
 \vspace{\up}
@@ -402,20 +405,31 @@ It set up requirements for strengthening reproducibility of biomedical research 
 The 1999 Ethics and Values document \footnote{\;\url{https://www.aps.org/policy/statements/99_6.cfm}} of the American Physical Society (APS) reads: ``The success and credibility of science are anchored in the willingness of scientists to [\ldots] Expose their ideas and results to independent testing and replication by others. This requires the open exchange of data, procedures and materials.'' 
 The use of the word `replication' coincides with the ideas of the Peng spectrum, but it could be a coincidental choice of words.
 
-The American Economic Association (AEA) has a policy\footnote{\;\url{https://www.aeaweb.org/journals/policies/data-availability-policy}} that applies to all its journals: ``to publish papers only if the data used in the analysis are clearly and precisely documented and are readily available to any researcher for purposes of replication.''
+The American Economic Association (AEA) has a policy\footnote{\;\url{https://www.aeaweb.org/journals/policies/data-availability-policy}} that applies to all its journals: ``to publish papers only if the data used in the analysis are clearly and precisely documented and are readily available to any researcher for purposes of replication.'' 
+(This includes all computer codes, configuration files and scripts.) 
+They use the term `replication` throughout, but the common sense is the replication of a full study or published paper. 
+For example, \cite{coffmanETal2017} propose that journals publish replication reports, which ``summarize novel work replicating an existing high-impact paper, or they could highlight a replication result embedded in a wider-scope published paper''
 
-The Federation of American Societies for Experimental Biology published a recommendations document \cite[]{faseb2016} targeted at biomedical and biological research (particularly two key tools: mouse models and antibodies). It defines:
+The Federation of American Societies for Experimental Biology published a recommendations document \cite[]{faseb2016} targeted at biomedical and biological research (particularly two key tools: mouse models and antibodies). 
+It provides definitions that fall squarely in group $B2$:
+
+\vspace{\up}
 \begin{description}
 \item[Replicability:] the ability to duplicate (i.e., repeat) a prior result using the same source materials and methodologies. This term should only be used when referring to repeating the results of a specific experiment rather than an entire study;
 \item[Reproducibility:] the ability to achieve similar or nearly identical results using comparable materials and methodologies. This term may be used when specific  findings from a study are obtained by an independent group of researchers.
 \end{description}
 
 The American Statistical Association (ASA) released in January 2017 a document with recommendations for funding agencies on supporting reproducible research \cite{bromanETal2017}.
-It defines:
+Its definitions align with group $B1$:
+
+\vspace{\up}
 \begin{description}
 \item[Reproducibility:] A study is reproducible if you can take the original data and the computer code used to analyze the data and reproduce all of the numerical findings from the study. This may initially sound like a trivial task but experience has shown that it?s not always easy to achieve this seemingly minimal standard.
 \item[Replicability:] This is the act of repeating an entire study, independently of the original investigator without the use of original data (but generally using the same methods).
 \end{description}
+
+The American Psychological Association just released new journal article reporting standards, which includes recurrent mention of the phrase `replication studies' to mean complete studies (including data collection) meant to confirm the findings of another  \cite[]{appelbaumETal2018}.
+
 
 \subsection*{Journal policies and editorials}
 \vspace{\up}
@@ -429,6 +443,7 @@ The \emph{American Journal of Political Science} requires authors\footnote{ \url
 Their terminology does not distinguish between the two recurrent terms (group $A$).
 
 The statement of the \emph{Annals of Internal Medicine} \cite[]{laineETal2007} talks about `replication by independent scientists in independent settings' and `reproducible research,' when published results can be re-created using the procedures and data used by the original authors. 
+This language is consistent with that of group $B1$.
 
 The Transparency and Openness Promotion (TOP) Guidelines \cite[]{nosekETal2015}, signed so far by nearly 3,000 journals and organizations, plainly link reproducibility to sharing of data, open code, research design disclosure, pre-registration of analysis plans and study details, and replication studies. 
 
