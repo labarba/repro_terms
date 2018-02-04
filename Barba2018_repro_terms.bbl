@@ -1,4 +1,4 @@
-\begin{thebibliography}{72}
+\begin{thebibliography}{73}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Appelbaum et~al.(2018)Appelbaum, Cooper, Kline, Mayo-Wilson, Nezu, and
@@ -353,6 +353,14 @@ Peng, R.~D., F.~Dominici, and S.~L. Zeger, 2006: Reproducible epidemiologic
 Pesaran, H., 2003: Introducing a replication section. {\em Journal of Applied
   Econometrics\/}, {\bf 18(1)}, 111--111,
   \url{http://www.jstor.org/stable/30035191}.
+
+\bibitem[Rougier et~al.(2017)Rougier, Hinsen, Alexandre, Arildsen, Barba,
+  Benureau, Brown, De~Buyl, Caglayan, Davison, et~al.]{rougierETal2017}
+Rougier, N.~P., K.~Hinsen, F.~Alexandre, T.~Arildsen, L.~A. Barba, F.~C.
+  Benureau, C.~T. Brown, P.~De~Buyl, O.~Caglayan, A.~P. Davison, et~al., 2017:
+  Sustainable computational science: the rescience initiative. {\em PeerJ
+  Computer Science\/}, {\bf 3}, e142,
+  \href{http://doi.org/10.7717/peerj-cs.142}{doi:10.7717/peerj-cs.142}.
 
 \bibitem[Sandve et~al.(2013)Sandve, Nekrutenko, Taylor, and
   Hovig]{sandveETal2013}
