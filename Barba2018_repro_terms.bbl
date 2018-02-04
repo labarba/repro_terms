@@ -1,5 +1,13 @@
-\begin{thebibliography}{63}
+\begin{thebibliography}{71}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[Appelbaum et~al.(2018)Appelbaum, Cooper, Kline, Mayo-Wilson, Nezu, and
+  Rao]{appelbaumETal2018}
+Appelbaum, M., H.~Cooper, R.~B. Kline, E.~Mayo-Wilson, A.~M. Nezu, and S.~M.
+  Rao, 2018: Journal article reporting standards for quantitative research in
+  psychology: The apa publications and communications board task force report.
+  {\em American Psychologist\/}, {\bf 73(1)}, 3--25,
+  \href{http://doi.org/10.1037/amp0000191}{doi:10.1037/amp0000191}.
 
 \bibitem[Baker(2016)]{baker20161}
 Baker, M., 2016: 1,500 scientists lift the lid on reproducibility. {\em Nature
@@ -82,6 +90,11 @@ Cooper, J., J.~O. Vik, and D.~Waltemath, 2015: A call for virtual experiments:
   Molecular Biology\/}, {\bf 117(1)}, 99--106,
   \href{https://doi.org/10.1016/j.pbiomolbio.2014.10.001}{doi:10.1016/j.pbiomolbio.2014.10.001}.
 
+\bibitem[Coudert(2017)]{coudert2017}
+Coudert, F.-X., 2017: Reproducible research in computational chemistry of
+  materials. {\em Chemistry of Materials\/}, {\bf 29(7)}, 2615--2617,
+  \href{https://doi.org/10.1021/acs.chemmater.7b00799}{doi:10.1021/acs.chemmater.7b00799}.
+
 \bibitem[Crook et~al.(2013)Crook, Davison, and Plesser]{crookETal2013}
 Crook, S.~M., A.~P. Davison, and H.~E. Plesser, 2013: Learning from the past:
   approaches for reproducibility in computational neuroscience. In Bower, J.,
@@ -132,6 +145,11 @@ Duvendack, M., R.~Palmer-Jones, and W.~R. Reed, 2017: What is meant by
   American Economic Review\/}, {\bf 107(5)}, 46--51,
   \href{http://dx.doi.org/10.1257/aer.p20171031}{doi:10.1257/aer.p20171031}.
 
+\bibitem[Eich(2014)]{eich2014}
+Eich, E., 2014: Business not as usual. {\em Psychological Science\/}, {\bf
+  25(1)}, 3--6,
+  \href{https://doi.org/10.1177/0956797613512465}{doi:10.1177/0956797613512465}.
+
 \bibitem[{FASEB}(2016)]{faseb2016}
 {FASEB}, 2016: Enhancing research reproducibility. Federation of American
   Societies for Experimental Biology,
@@ -155,6 +173,10 @@ Goodman, S.~N., D.~Fanelli, and J.~P.~A. Ioannidis, 2016: What does research
   reproducibility mean? {\em Science translational medicine\/}, {\bf 8(341)},
   341ps12,
   \href{https://doi.org/10.1126/scitranslmed.aaf5027}{doi:10.1126/scitranslmed.aaf5027}.
+
+\bibitem[Guala(2005)]{guala2005}
+Guala, F., 2005: {\em The Methodology of Experimental Economics\/}. Cambridge
+  University Press.
 
 \bibitem[Hamermesh(2007)]{hamermesh2007}
 Hamermesh, D.~S., 2007: Replication in economics. {\em Canadian Journal of
@@ -219,6 +241,15 @@ Lazer, D., R.~Kennedy, G.~King, and A.~Vespignani, 2014: The parable of google
   1203--1205,
   \href{https://doi.org/10.1126/science.1248506}{doi:10.1126/science.1248506}.
 
+\bibitem[Lejaeghere et~al.(2016)Lejaeghere, Bihlmayer, Bj{\"o}rkman, Blaha,
+  Bl{\"u}gel, Blum, Caliste, Castelli, Clark, Dal~Corso,
+  et~al.]{lejaeghere2016}
+Lejaeghere, K., G.~Bihlmayer, T.~Bj{\"o}rkman, P.~Blaha, S.~Bl{\"u}gel,
+  V.~Blum, D.~Caliste, I.~E. Castelli, S.~J. Clark, A.~Dal~Corso, et~al., 2016:
+  Reproducibility in density functional theory calculations of solids. {\em
+  Science\/}, {\bf 351(6280)}, aad3000,
+  \href{http://doi.org/10.1126/science.aad3000}{doi:10.1126/science.aad3000}.
+
 \bibitem[LeVeque(2009)]{leveque2009}
 LeVeque, R.~J., 2009: Python tools for reproducible research on hyperbolic
   problems. {\em Computing in Science \& Engineering\/}, {\bf 11(1)}, 19--27,
@@ -235,10 +266,19 @@ Liberman, M., 2015: Replicability vs. reproducibility --- or is it the
   other way around? The Language Log,
   \url{http://languagelog.ldc.upenn.edu/nll/?p=21956}.
 
+\bibitem[Lindsay(2015)]{lindsay2015}
+Lindsay, D.~S., 2015: Replication in psychological science. {\em Psychological
+  Science\/}, {\bf 26(12)}, 1827--1832.
+
 \bibitem[Loscalzo(2012)]{loscalzo2012}
 Loscalzo, J., 2012: Irreproducible experimental results. {\em Circulation\/},
   {\bf 125(10)}, 1211--1214,
   \href{https://doi.org/10.1161/circulationaha.112.098244}{doi:10.1161/circulationaha.112.098244}.
+
+\bibitem[Marszalek and Flintoft(2016)]{marszalek2016}
+Marszalek, R.~T. and L.~Flintoft, 2016: Being open: our policy on source code.
+  {\em Genome Biology\/}, {\bf 17}, 172,
+  \href{https://doi.org/10.1186/s13059-016-1040-y}{doi:10.1186/s13059-016-1040-y}.
 
 \bibitem[Marwick et~al.(2017)Marwick, Rokem, and Staneva]{marwickETal2017}
 Marwick, B., A.~Rokem, and V.~Staneva, 2017: {\em Assessing Reproducibility.
@@ -275,6 +315,12 @@ Nosek, B.~A., G.~Alter, G.~C. Banks, D.~Borsboom, S.~D. Bowman, S.~J. Breckler,
 ---, 2015: Estimating the reproducibility of psychological science. {\em
   Science\/}, {\bf 349(6251)}, aac4716,
   \href{https://doi.org/10.1126/science.aac4716}{doi:10.1126/science.aac4716}.
+
+\bibitem[Pashler and Wagenmakers(2012)]{pashler2012}
+Pashler, H. and E.-J. Wagenmakers, 2012: Editors' introduction to the special
+  section on replicability in psychological science: A crisis of confidence?
+  {\em Perspectives on Psychological Science\/}, {\bf 7(6)}, 528--530,
+  \href{https://doi.org/10.1177/1745691612465253}{doi:10.1177/1745691612465253}.
 
 \bibitem[Pellizzari et~al.(2017)Pellizzari, Lohr, Blatecky, and
   Creel]{pellizzariETal2017}
