@@ -3,7 +3,7 @@
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}  
 \ProcessOptions
 \LoadClass[11pt]{article} 
-
+\RequirePackage[hyphens]{url}
 \RequirePackage{amsmath}
 \RequirePackage[american]{babel}
 \RequirePackage{calc}
@@ -11,10 +11,10 @@
 \RequirePackage{color}
 
 \RequirePackage{eurosym}
-\RequirePackage{fontspec}% provides font selecting commands 
+%\RequirePackage{fontspec}% provides font selecting commands 
 \RequirePackage{geometry}
 \RequirePackage{graphicx}
-\RequirePackage{mathpazo}
+%\RequirePackage{mathpazo}
 
 \RequirePackage{natbib}
 \RequirePackage{paralist}       % compactitem environment
@@ -24,10 +24,10 @@
 \RequirePackage{subfig} % replaces the older subfigure package
 
 \RequirePackage{xspace}
-\RequirePackage{textcomp} % for the old style numbers
+%\RequirePackage{textcomp} % for the old style numbers
 \RequirePackage{wrapfig}
-\RequirePackage{xunicode}% provides unicode character macros 
-\RequirePackage{xltxtra} % provides some fixes/extras 
+%\RequirePackage{xunicode}% provides unicode character macros 
+%\RequirePackage{xltxtra} % provides some fixes/extras 
 
 
 

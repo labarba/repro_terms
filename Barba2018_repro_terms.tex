@@ -2,19 +2,20 @@
 
 % Author:  Lorena Barba
 
-
-\setromanfont[Mapping=tex-text,
-                 SmallCapsFont={Palatino},
-                 SmallCapsFeatures={Scale=0.85}]{Palatino}
-\setsansfont[Mapping=tex-text,Scale=0.9]{Optima} 
-\setmonofont[Mapping=tex-text,Scale=0.85]{Monaco}
-\newfontfamily\titfont[Mapping=tex-text]{Source Sans Pro ExtraLight}
-\newfontfamily\secfont[Mapping=tex-text]{Source Sans Pro Bold}
-\newfontfamily\subsecfont[Mapping=tex-text]{Source Sans Pro}
-\renewcommand{\captionlabelfont}{\bf\sffamily}
+\usepackage{palatino}  
+\usepackage[T1]{fontenc}
+%\setromanfont[Mapping=tex-text,
+%                 SmallCapsFont={Palatino},
+%                 SmallCapsFeatures={Scale=0.85}]{Palatino}
+%\setsansfont[Mapping=tex-text,Scale=0.9]{Optima} 
+%\setmonofont[Mapping=tex-text,Scale=0.85]{Monaco}
+%\newfontfamily\titfont[Mapping=tex-text]{Source Sans Pro ExtraLight}
+%\newfontfamily\secfont[Mapping=tex-text]{Source Sans Pro Bold}
+%\newfontfamily\subsecfont[Mapping=tex-text]{Source Sans Pro}
+%\renewcommand{\captionlabelfont}{\bf\sffamily}
 \lhead{}
 \chead{}
-\rhead{\titfont Terminologies for Reproducible Research}
+\rhead{ Terminologies for Reproducible Research}
 \lfoot{}
 \cfoot{\thepage}
 \rfoot{}
@@ -35,20 +36,20 @@
 
 
 \usepackage[
-    xetex,
     pdftitle={Terminologies for Reproducible Research},
     pdfauthor={Lorena Barba},
     pdfpagemode={UseOutlines},
     pdfpagelayout={TwoColumnRight},
     bookmarks, bookmarksopen,bookmarksnumbered={True},
     pdfstartview={FitH},
+    breaklinks=true,
     colorlinks, linkcolor={linkcol},citecolor={linkcol},urlcolor={linkcol}
     ]{hyperref}
 
 %% Define a new style for the url package that will use a smaller font.
 \makeatletter
 \def\url@leostyle{%
-  \@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{\small\ttfamily}}}
+  \@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{\footnotesize\ttfamily}}}
 \makeatother
 %% Now actually use the newly defined style.
 \urlstyle{leo}
@@ -67,12 +68,12 @@
 \newlength{\hup}
 \setlength{\hup}{-2mm}
 
-\sectionfont{\secfont \color{palevioletred4}\vspace{-2mm}}
-\subsectionfont{\secfont\vspace{-4mm}}
-\subsubsectionfont{\normalsize\mdseries\itshape\vspace{-4mm}} %\itshape
-\paragraphfont{\bfseries}
+%\sectionfont{\secfont \color{palevioletred4}\vspace{-2mm}}
+%\subsectionfont{\secfont\vspace{-4mm}}
+%\subsubsectionfont{\normalsize\mdseries\itshape\vspace{-4mm}} %\itshape
+%\paragraphfont{\bfseries}
 
-\newfontfamily\notefont[Mapping=tex-text,Scale=1]{Optima}
+%S\newfontfamily\notefont[Mapping=tex-text,Scale=1]{Optima}
 
 % -----------------------------------------------------------------------------------------------------------
 \begin{document}
@@ -84,12 +85,13 @@
 
 \thispagestyle{empty}
 
-{\titfont \Huge Terminologies for Reproducible Research} 
+{ \Huge Terminologies for Reproducible Research} 
 \medskip
 
-{\fontspec[Mapping=tex-text,Scale=0.8]{Source Sans Pro} Lorena A. Barba, the George Washington University, Washington D.C. 
+%{\fontspec[Mapping=tex-text,Scale=0.8]{Source Sans Pro} Lorena A. Barba, the George Washington University, Washington D.C. 
+Lorena A. Barba, the George Washington University, Washington D.C. 
 
-January 2018}
+January 2018
 
 
 
@@ -536,8 +538,439 @@ A feasible way out would be if these fields accept calling `reproducible researc
 
 % ----------------------------------------------  REFERENCES 
 {\small
-\bibliography{repro}
+%\bibliography{repro}
 \bibliographystyle{jponew}
+\begin{thebibliography}{73}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[Appelbaum et~al.(2018)Appelbaum, Cooper, Kline, Mayo-Wilson, Nezu, and
+  Rao]{appelbaumETal2018}
+Appelbaum, M., H.~Cooper, R.~B. Kline, E.~Mayo-Wilson, A.~M. Nezu, and S.~M.
+  Rao, 2018: Journal article reporting standards for quantitative research in
+  psychology: The {APA} publications and communications board task force
+  report. {\em American Psychologist\/}, {\bf 73(1)}, 3--25,
+  \href{http://doi.org/10.1037/amp0000191}{doi:10.1037/amp0000191}.
+
+\bibitem[Baker(2016)]{baker20161}
+Baker, M., 2016: 1,500 scientists lift the lid on reproducibility. {\em Nature
+  News\/}, {\bf 533(7604)}, 452--454.
+
+\bibitem[Barba(2017)]{barba2017-repeto}
+Barba, L.~A., 2017: Science reproducibility taxonomy. Figshare, presentation
+  slides under CC-BY,
+  \href{https://doi.org/10.6084/m9.figshare.5248273.v1}{doi:10.6084/m9.figshare.5248273.v1}.
+
+\bibitem[Benureau and Rougier(2017)]{benureauETal2017}
+Benureau, F.~C. and N.~P. Rougier, 2017: Re-run, repeat, reproduce, reuse,
+  replicate: Transforming code into scientific contributions. {\em Frontiers in
+  Neuroinformatics\/}, {\bf 11},
+  \href{https://doi.org/10.3389/fninf.2017.00069}{doi:10.3389/fninf.2017.00069}.
+
+\bibitem[Bollen et~al.(2015)Bollen, Cacioppo, Kaplan, Krosnick, and
+  Olds]{bollenETal2015}
+Bollen, K., J.~Cacioppo, R.~Kaplan, J.~Krosnick, and J.~Olds, 2015: Social,
+  behavioral, and economic sciences: perspectives on robust and reliable
+  science. Report of the Subcommittee on Replicability in Science, Advisory
+  Committee to the National Science Foundation Directorate for Social,
+  Behavioral, and Economic Sciences.
+
+\bibitem[Boylan et~al.(2015)Boylan, Goodwin, Mohammadipour, and
+  Syntetos]{boylan2015}
+Boylan, J.~E., P.~Goodwin, M.~Mohammadipour, and A.~A. Syntetos, 2015:
+  Reproducibility in forecasting research. {\em International Journal of
+  Forecasting\/}, {\bf 31(1)}, 79--90,
+  \href{https://doi.org/10.1016/j.ijforecast.2014.05.008}{doi:10.1016/j.ijforecast.2014.05.008}.
+
+\bibitem[Broman et~al.(2017)Broman, Cetinkaya-Rundel, Nussbaum, Paciorek, Peng,
+  Turek, and Wickham]{bromanETal2017}
+Broman, K., M.~Cetinkaya-Rundel, A.~Nussbaum, C.~Paciorek, R.~Peng, D.~Turek,
+  and H.~Wickham, 2017: Recommendations to funding agencies for supporting
+  reproducible research. American Statistical Association (ASA),
+  \url{http://www.amstat.org/asa/files/pdfs/POL-ReproducibleResearchRecommendations.pdf}.
+
+\bibitem[Buckheit and Donoho(1995)]{buckheit_donoho1995}
+Buckheit, J.~B. and D.~L. Donoho, 1995: Wavelab and reproducible research. In
+  Antoniadis~A., O.~G., ed., {\em Wavelets and statistics\/}, Springer, New
+  York, NY, vol. 103 of {\em Lecture Notes in Statistics\/}, pp. 55--81,
+  \href{https://doi.org/10.1007/978-1-4612-2544-7_5}{doi:10.1007/978-1-4612-2544-7\_5}.
+
+\bibitem[Cartwright(1991)]{cartwright1991}
+Cartwright, N., 1991: Replicability, reproducibility, and robustness: comments
+  on harry collins. {\em History of Political Economy\/}, {\bf 23(1)},
+  143--155,
+  \href{https://doi.org/10.1215/00182702-23-1-143}{doi:10.1215/00182702-23-1-143}.
+
+\bibitem[Casadevall and Fang(2010)]{casadevall_fang2010}
+Casadevall, A. and F.~C. Fang, 2010: Reproducible science. {\em Infection and
+  Immunity\/}, {\bf 78(12)}, 4972--4975,
+  \href{https://doi.org/10.1128/IAI.00908-10}{doi:10.1128/IAI.00908-10}.
+
+\bibitem[Claerbout and Karrenbach(1992)]{claerbout1992}
+Claerbout, J.~F. and M.~Karrenbach, 1992: Electronic documents give
+  reproducible research a new meaning. In {\em SEG Technical Program Expanded
+  Abstracts 1992\/}, Society of Exploration Geophysicists, pp. 601--604,
+  \href{https://doi.org/10.1190/1.1822162}{doi:10.1190/1.1822162}.
+
+\bibitem[Coffman et~al.(2017)Coffman, Niederle, and Wilson]{coffmanETal2017}
+Coffman, L.~C., M.~Niederle, and A.~J. Wilson, 2017: A proposal to organize and
+  promote replications. {\em American Economic Review\/}, {\bf 107(5)}, 41--45,
+  \href{https://doi.org/10.1257/aer.p20171122}{doi:10.1257/aer.p20171122}.
+
+\bibitem[Collins and Tabak(2014)]{collinsETal2014}
+Collins, F.~S. and L.~A. Tabak, 2014: Nih plans to enhance reproducibility.
+  {\em Nature\/}, {\bf 505(7485)}, 612,
+  \href{https://doi.org/10.1038/505612a}{doi:10.1038/505612a}.
+
+\bibitem[Collins(1991)]{collins1991}
+Collins, H.~M., 1991: The meaning of replication and the science of economics.
+  {\em History of Political Economy\/}, {\bf 23(1)}, 123--142,
+  \href{https://doi.org/10.1215/00182702-23-1-123}{doi:10.1215/00182702-23-1-123}.
+
+\bibitem[Cooper et~al.(2015)Cooper, Vik, and Waltemath]{cooper2015}
+Cooper, J., J.~O. Vik, and D.~Waltemath, 2015: A call for virtual experiments:
+  accelerating the scientific process. {\em Progress in Biophysics and
+  Molecular Biology\/}, {\bf 117(1)}, 99--106,
+  \href{https://doi.org/10.1016/j.pbiomolbio.2014.10.001}{doi:10.1016/j.pbiomolbio.2014.10.001}.
+
+\bibitem[Coudert(2017)]{coudert2017}
+Coudert, F.-X., 2017: Reproducible research in computational chemistry of
+  materials. {\em Chemistry of Materials\/}, {\bf 29(7)}, 2615--2617,
+  \href{https://doi.org/10.1021/acs.chemmater.7b00799}{doi:10.1021/acs.chemmater.7b00799}.
+
+\bibitem[Crook et~al.(2013)Crook, Davison, and Plesser]{crookETal2013}
+Crook, S.~M., A.~P. Davison, and H.~E. Plesser, 2013: Learning from the past:
+  approaches for reproducibility in computational neuroscience. In Bower, J.,
+  ed., {\em 20 Years of Computational Neuroscience\/}, Springer, vol.~9 of {\em
+  Springer Series in Computational Neuroscience\/}, pp. 73--102,
+  \href{https://doi.org/10.1007/978-1-4614-1424-7_4}{doi:10.1007/978-1-4614-1424-7\_4}.
+
+\bibitem[Davison(2012)]{davison2012}
+Davison, A., 2012: Automated capture of experiment context for easier
+  reproducibility in computational research. {\em Computing in Science \&
+  Engineering\/}, {\bf 14(4)}, 48--56,
+  \href{https://doi.org/10.1109/MCSE.2012.41}{doi:10.1109/MCSE.2012.41}.
+
+\bibitem[de~Winter and Happee(2013)]{dewinter_happee2013}
+de~Winter, J. and R.~Happee, 2013: Why selective publication of statistically
+  significant results can be effective. {\em PloS one\/}, {\bf 8(6)}, e66463,
+  \href{https://doi.org/10.1371/journal.pone.0066463}{doi:10.1371/journal.pone.0066463}.
+
+\bibitem[Delescluse et~al.(2012)Delescluse, Franconville, Joucla, Lieury, and
+  Pouzat]{delescluseETal2012}
+Delescluse, M., R.~Franconville, S.~Joucla, T.~Lieury, and C.~Pouzat, 2012:
+  Making neurophysiological data analysis reproducible: Why and how? {\em
+  Journal of Physiology--Paris\/}, {\bf 106(3)}, 159--170,
+  \href{https://doi.org/10.1016/j.jphysparis.2011.09.011}{doi:10.1016/j.jphysparis.2011.09.011}.
+
+\bibitem[Dewald et~al.(1986)Dewald, Thursby, and Anderson]{dewaldETal1986}
+Dewald, W.~G., J.~G. Thursby, and R.~G. Anderson, 1986: Replication in
+  empirical economics: The journal of money, credit and banking project. {\em
+  The American Economic Review\/}, 587--603,
+  \url{www.jstor.org/stable/1806061.}
+
+\bibitem[Donoho et~al.(2009)Donoho, Maleki, Rahman, Shahram, and
+  Stodden]{donohoETal2009}
+Donoho, D.~L., A.~Maleki, I.~U. Rahman, M.~Shahram, and V.~Stodden, 2009:
+  Reproducible research in computational harmonic analysis. {\em Computing in
+  Science \& Engineering\/}, {\bf 11(1)}, 8--18,
+  \href{https://doi.org/10.1109/MCSE.2009.15}{doi:10.1109/MCSE.2009.15}.
+
+\bibitem[Drummond(2009)]{drummond2009}
+Drummond, C., 2009: Replicability is not reproducibility: nor is it good
+  science. [Conference Paper] Cogprints ID 7691,
+  \url{http://cogprints.org/7691/}.
+
+\bibitem[Duvendack et~al.(2017)Duvendack, Palmer-Jones, and
+  Reed]{duvendackETal2017}
+Duvendack, M., R.~Palmer-Jones, and W.~R. Reed, 2017: What is meant by
+  ``replication'' and why does it encounter resistance in economics? {\em
+  American Economic Review\/}, {\bf 107(5)}, 46--51,
+  \href{http://dx.doi.org/10.1257/aer.p20171031}{doi:10.1257/aer.p20171031}.
+
+\bibitem[Eich(2014)]{eich2014}
+Eich, E., 2014: Business not as usual. {\em Psychological Science\/}, {\bf
+  25(1)}, 3--6,
+  \href{https://doi.org/10.1177/0956797613512465}{doi:10.1177/0956797613512465}.
+
+\bibitem[{FASEB}(2016)]{faseb2016}
+{FASEB}, 2016: Enhancing research reproducibility. Federation of American
+  Societies for Experimental Biology,
+  \url{https://www.faseb.org/Portals/2/PDFs/opa/2016/FASEB_Enhancing%20Research%20Reproducibility.pdf}.
+
+\bibitem[Garijo et~al.(2013)Garijo, Kinnings, Xie, Xie, Zhang, Bourne, and
+  Gil]{garijoETal2013}
+Garijo, D., S.~Kinnings, L.~Xie, L.~Xie, Y.~Zhang, P.~E. Bourne, and Y.~Gil,
+  2013: Quantifying reproducibility in computational biology: the case of the
+  tuberculosis drugome. {\em PloS one\/}, {\bf 8(11)}, e80278,
+  \href{https://doi.org/10.1371/journal.pone.0080278}{doi:10.1371/journal.pone.0080278}.
+
+\bibitem[Gentleman and Temple~Lang(2007)]{gentlemanETal2007}
+Gentleman, R. and D.~Temple~Lang, 2007: Statistical analyses and reproducible
+  research. {\em Journal of Computational and Graphical Statistics\/}, {\bf
+  16(1)}, 1--23,
+  \href{https://doi.org/10.1198/106186007X178663}{doi:10.1198/106186007X178663}.
+
+\bibitem[Goodman et~al.(2016)Goodman, Fanelli, and Ioannidis]{goodmanETal2016}
+Goodman, S.~N., D.~Fanelli, and J.~P.~A. Ioannidis, 2016: What does research
+  reproducibility mean? {\em Science translational medicine\/}, {\bf 8(341)},
+  341ps12,
+  \href{https://doi.org/10.1126/scitranslmed.aaf5027}{doi:10.1126/scitranslmed.aaf5027}.
+
+\bibitem[Greenbaum et~al.(2017)Greenbaum, Rozowsky, Stodden, and
+  Gerstein]{greenbaumETal2017}
+Greenbaum, D., J.~Rozowsky, V.~Stodden, and M.~Gerstein, 2017: Structuring
+  supplemental materials in support of reproducibility. {\em Genome biology\/},
+  {\bf 18(1)}, 64,
+  \href{https://doi.org/10.1186/s13059-017-1205-3}{doi:10.1186/s13059-017-1205-3}.
+
+\bibitem[Guala(2005)]{guala2005}
+Guala, F., 2005: {\em The Methodology of Experimental Economics\/}. Cambridge
+  University Press.
+
+\bibitem[Hamermesh(2007)]{hamermesh2007}
+Hamermesh, D.~S., 2007: Replication in economics. {\em Canadian Journal of
+  Economics/Revue canadienne d'{\'e}conomique\/}, {\bf 40(3)}, 715--733,
+  \href{https://doi.org/10.1111/j.1365-2966.2007.00428.x}{doi:10.1111/j.1365-2966.2007.00428.x}.
+
+\bibitem[Hyndman(2010)]{hyndman2010}
+Hyndman, R.~J., 2010: Encouraging replication and reproducible research. {\em
+  Int. J. Forecasting\/}, {\bf 26}, 2--3,
+  \href{https://doi.org/10.1016/j.ijforecast.2009.12.003}{doi:10.1016/j.ijforecast.2009.12.003}.
+
+\bibitem[Iqbal et~al.(2016)Iqbal, Wallach, Khoury, Schully, and
+  Ioannidis]{iqbalETal2016}
+Iqbal, S.~A., J.~D. Wallach, M.~J. Khoury, S.~D. Schully, and J.~P. Ioannidis,
+  2016: Reproducible research practices and transparency across the biomedical
+  literature. {\em PLoS Biology\/}, {\bf 14(1)}, e1002333,
+  \href{https://doi.org/10.1371/journal.pbio.1002333}{doi:10.1371/journal.pbio.1002333}.
+
+\bibitem[Jasny et~al.(2011)Jasny, Chin, Chong, and Vignieri]{jasnyETal2011}
+Jasny, B.~R., G.~Chin, L.~Chong, and S.~Vignieri, 2011: Again, and again, and
+  again{\ldots}. {\em Science\/}, {\bf 334(6060)}, 1225,
+  \href{https://doi.org/10.1126/science.334.6060.1225}{doi:10.1126/science.334.6060.1225}.
+
+\bibitem[JCGM(2008)]{jcgm2008}
+JCGM, 2008: {\em The international vocabulary of metrology---basic and general
+  concepts and associated terms {(VIM)}\/}. Joint Committee for Guides in
+  Metrology, 3rd edn. JCGM 200: 2012,
+  \url{https://www.bipm.org/utils/common/documents/jcgm/JCGM_200_2012.pdf}.
+
+\bibitem[Kafkafi et~al.(2016)Kafkafi, Agassi, Chesler, Crabbe, Crusio, Eilam,
+  Gerlai, Golani, Gomez-Marin, Heller, et~al.]{kafkafiETal2016}
+Kafkafi, N., J.~Agassi, E.~J. Chesler, J.~C. Crabbe, W.~E. Crusio, D.~Eilam,
+  R.~Gerlai, I.~Golani, A.~Gomez-Marin, R.~Heller, et~al., 2016:
+  Reproducibility and replicability of rodent phenotyping in preclinical
+  studies. {\em bioRxiv\/}, 079350,
+  \href{https://doi.org/10.1101/079350}{doi:10.1101/079350}.
+
+\bibitem[King(1995)]{king1995}
+King, G., 1995: Replication, replication. {\em PS: Political Science \&
+  Politics\/}, {\bf 28(3)}, 444--452,
+  \href{https://doi.org/10.2307/420301}{doi:10.2307/420301}.
+
+\bibitem[Kitzes et~al.(2017)Kitzes, Turek, and Deniz]{kitzesETal2017}
+Kitzes, J., D.~Turek, and F.~Deniz, 2017: {\em The practice of reproducible
+  research: case studies and lessons from the data-intensive sciences\/}.
+  University of California Press.
+
+\bibitem[Koenker and Zeileis(2009)]{koenkerETal2009}
+Koenker, R. and A.~Zeileis, 2009: On reproducible econometric research. {\em
+  Journal of Applied Econometrics\/}, {\bf 24(5)}, 833--847,
+  \href{https://doi.org/10.1002/jae.1083}{doi:10.1002/jae.1083}.
+
+\bibitem[Laine et~al.(2007)Laine, Goodman, Griswold, and Sox]{laineETal2007}
+Laine, C., S.~N. Goodman, M.~E. Griswold, and H.~C. Sox, 2007: Reproducible
+  research: Moving toward research the public can really trust. {\em Annals of
+  Internal Medicine\/}, {\bf 146(6)}, 450--453,
+  \href{https://doi.org/10.7326/0003-4819-146-6-200703200-00154}{doi:10.7326/0003-4819-146-6-200703200-00154}.
+
+\bibitem[Lazer et~al.(2014)Lazer, Kennedy, King, and Vespignani]{lazerETal2014}
+Lazer, D., R.~Kennedy, G.~King, and A.~Vespignani, 2014: The parable of google
+  flu: traps in big data analysis. {\em Science\/}, {\bf 343(6176)},
+  1203--1205,
+  \href{https://doi.org/10.1126/science.1248506}{doi:10.1126/science.1248506}.
+
+\bibitem[Lejaeghere et~al.(2016)Lejaeghere, Bihlmayer, Bj{\"o}rkman, Blaha,
+  Bl{\"u}gel, Blum, Caliste, Castelli, Clark, Dal~Corso,
+  et~al.]{lejaeghere2016}
+Lejaeghere, K., G.~Bihlmayer, T.~Bj{\"o}rkman, P.~Blaha, S.~Bl{\"u}gel,
+  V.~Blum, D.~Caliste, I.~E. Castelli, S.~J. Clark, A.~Dal~Corso, et~al., 2016:
+  Reproducibility in density functional theory calculations of solids. {\em
+  Science\/}, {\bf 351(6280)}, aad3000,
+  \href{http://doi.org/10.1126/science.aad3000}{doi:10.1126/science.aad3000}.
+
+\bibitem[LeVeque(2009)]{leveque2009}
+LeVeque, R.~J., 2009: Python tools for reproducible research on hyperbolic
+  problems. {\em Computing in Science \& Engineering\/}, {\bf 11(1)}, 19--27,
+  \href{https://doi.org/10.1109/MCSE.2009.13}{doi:10.1109/MCSE.2009.13}.
+
+\bibitem[LeVeque et~al.(2012)LeVeque, Mitchell, and Stodden]{levequeETal2012}
+LeVeque, R.~J., I.~M. Mitchell, and V.~Stodden, 2012: Reproducible research for
+  scientific computing: Tools and strategies for changing the culture. {\em
+  Computing in Science \& Engineering\/}, {\bf 14(4)}, 13--17,
+  \href{https://doi.org/10.1109/MCSE.2012.38}{doi:10.1109/MCSE.2012.38}.
+
+\bibitem[Liberman(2015)]{liberman2015}
+Liberman, M., 2015: Replicability vs. reproducibility --- or is it the
+  other way around? The Language Log,
+  \url{http://languagelog.ldc.upenn.edu/nll/?p=21956}.
+
+\bibitem[Lindsay(2015)]{lindsay2015}
+Lindsay, D.~S., 2015: Replication in psychological science. {\em Psychological
+  Science\/}, {\bf 26(12)}, 1827--1832.
+
+\bibitem[Loscalzo(2012)]{loscalzo2012}
+Loscalzo, J., 2012: Irreproducible experimental results. {\em Circulation\/},
+  {\bf 125(10)}, 1211--1214,
+  \href{https://doi.org/10.1161/circulationaha.112.098244}{doi:10.1161/circulationaha.112.098244}.
+
+\bibitem[Marszalek and Flintoft(2016)]{marszalek2016}
+Marszalek, R.~T. and L.~Flintoft, 2016: Being open: our policy on source code.
+  {\em Genome Biology\/}, {\bf 17}, 172,
+  \href{https://doi.org/10.1186/s13059-016-1040-y}{doi:10.1186/s13059-016-1040-y}.
+
+\bibitem[Marwick et~al.(2017)Marwick, Rokem, and Staneva]{marwickETal2017}
+Marwick, B., A.~Rokem, and V.~Staneva, 2017: {\em Assessing Reproducibility.
+  \emph{In The Practice of Reproducible Research Case Studies and Lessons from
+  the Data-Intensive Sciences, Kitzes et al., eds.}\/}, University of
+  California Press. pp. 3--18.
+
+\bibitem[McCullough et~al.(2008)McCullough, McGeary, and
+  Harrison]{mccullough2008}
+McCullough, B.~D., K.~A. McGeary, and T.~D. Harrison, 2008: Do economics
+  journal archives promote replicable research? {\em Canadian Journal of
+  Economics/Revue canadienne d'{\'e}conomique\/}, {\bf 41(4)}, 1406--1420,
+  \href{https://doi.org/10.1111/j.1540-5982.2008.00509.x}{doi:10.1111/j.1540-5982.2008.00509.x}.
+
+\bibitem[{National Science Foundation}(2015)]{nsf2015vid}
+{National Science Foundation}, 2015: The basics of reproducibility. Video on
+  the NSF website,
+  \url{https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=136139&org=NSF}.
+
+\bibitem[Nosek et~al.(2015)Nosek, Alter, Banks, Borsboom, Bowman, Breckler,
+  Buck, Chambers, Chin, Christensen, et~al.]{nosekETal2015}
+Nosek, B.~A., G.~Alter, G.~C. Banks, D.~Borsboom, S.~D. Bowman, S.~J. Breckler,
+  S.~Buck, C.~D. Chambers, G.~Chin, G.~Christensen, et~al., 2015: Promoting an
+  open research culture. {\em Science\/}, {\bf 348(6242)}, 1422--1425,
+  \href{https://doi.org/10.1126/science.aab2374}{doi:10.1126/science.aab2374}.
+
+\bibitem[{Open Science Collaboration}(2012)]{openscience2012}
+{Open Science Collaboration}, 2012: An open, large-scale, collaborative effort
+  to estimate the reproducibility of psychological science. {\em Perspectives
+  on Psychological Science\/}, {\bf 7(6)}, 657--660,
+  \href{https://doi.org/10.1177/1745691612462588}{doi:10.1177/1745691612462588}.
+
+\bibitem[{Open Science Collaboration}(2015)]{openscience2015}
+---, 2015: Estimating the reproducibility of psychological science. {\em
+  Science\/}, {\bf 349(6251)}, aac4716,
+  \href{https://doi.org/10.1126/science.aac4716}{doi:10.1126/science.aac4716}.
+
+\bibitem[Pashler and Wagenmakers(2012)]{pashler2012}
+Pashler, H. and E.-J. Wagenmakers, 2012: Editors' introduction to the special
+  section on replicability in psychological science: A crisis of confidence?
+  {\em Perspectives on Psychological Science\/}, {\bf 7(6)}, 528--530,
+  \href{https://doi.org/10.1177/1745691612465253}{doi:10.1177/1745691612465253}.
+
+\bibitem[Pellizzari et~al.(2017)Pellizzari, Lohr, Blatecky, and
+  Creel]{pellizzariETal2017}
+Pellizzari, E., K.~Lohr, A.~Blatecky, and D.~Creel, 2017: {\em Reproducibility:
+  A Primer on Semantics and Implications for Research\/}. RTI Press.
+
+\bibitem[Peng(2009)]{peng2009}
+Peng, R.~D., 2009: Reproducible research and biostatistics. {\em
+  Biostatistics\/}, {\bf 10(3)}, 405--408,
+  \href{https://doi.org/10.1093/biostatistics/kxp014}{doi:10.1093/biostatistics/kxp014}.
+
+\bibitem[Peng(2011)]{peng2011}
+---, 2011: Reproducible research in computational science. {\em Science\/},
+  {\bf 334(6060)}, 1226--1227,
+  \href{https://doi.org/10.1126/science.1213847}{doi:10.1126/science.1213847}.
+
+\bibitem[Peng et~al.(2006)Peng, Dominici, and Zeger]{pengETal2006}
+Peng, R.~D., F.~Dominici, and S.~L. Zeger, 2006: Reproducible epidemiologic
+  research. {\em American Journal of Epidemiology\/}, {\bf 163(9)}, 783--789,
+  \href{https://doi.org/10.1093/aje/kwj093}{doi:10.1093/aje/kwj093}.
+
+\bibitem[Pesaran(2003)]{pesaran2003}
+Pesaran, H., 2003: Introducing a replication section. {\em Journal of Applied
+  Econometrics\/}, {\bf 18(1)}, 111--111,
+  \url{http://www.jstor.org/stable/30035191}.
+
+\bibitem[Rougier et~al.(2017)Rougier, Hinsen, Alexandre, Arildsen, Barba,
+  Benureau, Brown, De~Buyl, Caglayan, Davison, et~al.]{rougierETal2017}
+Rougier, N.~P., K.~Hinsen, F.~Alexandre, T.~Arildsen, L.~A. Barba, F.~C.
+  Benureau, C.~T. Brown, P.~De~Buyl, O.~Caglayan, A.~P. Davison, et~al., 2017:
+  Sustainable computational science: the rescience initiative. {\em PeerJ
+  Computer Science\/}, {\bf 3}, e142,
+  \href{http://doi.org/10.7717/peerj-cs.142}{doi:10.7717/peerj-cs.142}.
+
+\bibitem[Sandve et~al.(2013)Sandve, Nekrutenko, Taylor, and
+  Hovig]{sandveETal2013}
+Sandve, G.~K., A.~Nekrutenko, J.~Taylor, and E.~Hovig, 2013: Ten simple rules
+  for reproducible computational research. {\em PLoS Computational Biology\/},
+  {\bf 9(10)}, e1003285,
+  \href{https://doi.org/10.1371/journal.pcbi.1003285}{doi:10.1371/journal.pcbi.1003285}.
+
+\bibitem[Schwab et~al.(2000)Schwab, Karrenbach, and Claerbout]{schwabETal2000}
+Schwab, M., M.~Karrenbach, and J.~Claerbout, 2000: Making scientific
+  computations reproducible. {\em Computing in Science \& Engineering\/}, {\bf
+  2(6)}, 61--67,
+  \href{https://doi.org/10.1109/5992.881708}{doi:10.1109/5992.881708}.
+
+\bibitem[Stevens(2017)]{stevens2017}
+Stevens, J.~R., 2017: Replicability and reproducibility in comparative
+  psychology. {\em Frontiers in Psychology\/}, {\bf 8}, 862,
+  \href{https://dx.doi.org/10.3389/fpsyg.2017.00862}{doi:10.3389/fpsyg.2017.00862}.
+
+\bibitem[Stodden(2011)]{stodden2011}
+Stodden, V., 2011: Trust your science? open your data and code. {\em Amstat
+  News\/}, 21--22,
+  \url{http://magazine.amstat.org/blog/2011/07/01/trust-your-science/}.
+
+\bibitem[Stodden(2013)]{stodden2013}
+---, 2013: Resolving irreproducibility in empirical and computational research.
+  IMS Bulletin,
+  \url{http://bulletin.imstat.org/2013/11/resolving-irreproducibility-in-empirical-and-computational-research/}.
+
+\bibitem[Stodden(2015)]{stodden2015}
+---, 2015: Reproducing statistical results. {\em Annual Review of Statistics
+  and Its Application\/}, {\bf 2}, 1--19,
+  \href{https://doi.org/10.1146/annurev-statistics-010814-020127}{doi:10.1146/annurev-statistics-010814-020127}.
+
+\bibitem[Stodden et~al.(2014)Stodden, Leisch, and Peng]{stoddenETal2014}
+Stodden, V., F.~Leisch, and R.~D. Peng, eds., 2014: {\em Implementing
+  Reproducible Research\/}. CRC Press, iSBN 9781466561595, preprint at
+  \href{https://osf.io/s9tya/}{osf.io/s9tya/}.
+
+\bibitem[Taylor and Kuyatt(1994)]{taylorETal1994}
+Taylor, B.~N. and C.~E. Kuyatt, 1994: {\em Guidelines for evaluating and
+  expressing the uncertainty of NIST measurement results\/}. US Department of
+  Commerce, Technology Administration, National Institute of Standards and
+  Technology,
+  \url{https://www.nist.gov/sites/default/files/documents/2017/05/09/tn1297s.pdf}.
+
+\bibitem[Topalidou et~al.(2015)Topalidou, Leblois, Boraud, and
+  Rougier]{topalidou2015}
+Topalidou, M., A.~Leblois, T.~Boraud, and N.~P. Rougier, 2015: A long journey
+  into reproducible computational neuroscience. {\em Frontiers in Computational
+  Neuroscience\/}, {\bf 9}, 30,
+  \href{https://doi.org/10.3389/fncom.2015.00030}{doi:10.3389/fncom.2015.00030}.
+
+\bibitem[Vandewalle et~al.(2009)Vandewalle, Kovacevic, and
+  Vetterli]{vandewalleETal2009}
+Vandewalle, P., J.~Kovacevic, and M.~Vetterli, 2009: Reproducible research in
+  signal processing. {\em IEEE Signal Processing Magazine\/}, {\bf 26(3)},
+  37--47,
+  \href{https://doi.org/10.1109/MSP.2009.932122}{doi:10.1109/MSP.2009.932122}.
+
+\bibitem[Wikipedia(2017)]{wiki:claerbout}
+{Wikipedia contributors}, 2017: {Jon Claerbout}. Wikipedia, The Free
+  Encyclopedia,
+  \url{https://en.wikipedia.org/w/index.php?title=Jon_Claerbout&oldid=777337051}
+  [Online; accessed 14-January-2018].
+
+\end{thebibliography}
+
 }
 
 
